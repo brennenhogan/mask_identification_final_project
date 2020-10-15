@@ -1,10 +1,8 @@
-import numpy as np 
 import pandas as pd 
 import os
 import random
 import matplotlib.pyplot as plt
 import matplotlib.patches as patches
-from PIL import Image
 from torchvision import torch,datasets,transforms,models
 from torch.utils.data import Dataset,DataLoader
 

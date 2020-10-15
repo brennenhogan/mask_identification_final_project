@@ -8,6 +8,10 @@ This project uses the mask labeled dataset from Kaggle. The dataset can be found
 Please download the dataset and move it to the folder where you are running the program before use
 Call the data "mask_data" and it will be ignored by the .gitignore file for future use
 
+# Data paths
+mask_data/dataset/masks/annotations
+mask_data/dataset/masks/images
+
 # Library and Running
 To run please use python3
 Necessary libraries: matplotlib, pytorch, pandas

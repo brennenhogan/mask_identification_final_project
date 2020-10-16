@@ -19,9 +19,9 @@ ssl._create_default_https_context = ssl._create_unverified_context
 SHOW_IMAGES = False
 
 #Colors cooresponding to the labels
-class_color={"face_no_mask":"r","face_with_mask":"g"}
-label_to_ints={"face_no_mask":0,"face_with_mask":1}
-ints_to_label={0:"face_no_mask",1:"face_with_mask"}
+class_color   = {"face_no_mask":"r","face_with_mask":"g"}
+label_to_ints = {"face_no_mask":0,"face_with_mask":1}
+ints_to_label = {0:"face_no_mask",1:"face_with_mask"}
 
 # creating the function to visualize images and draw a box around the face
 def visualize_training(image_name):
@@ -72,7 +72,7 @@ def visualize_guess(image_name, labels):
 
 def run_model(model, training_data, testing_data):
     #Trains the model for 5 epochs in batches of 10
-    epochs = 5
+    epochs = 1
     training_loss = []
 
     for epoch in range(epochs):
@@ -97,17 +97,40 @@ def run_model(model, training_data, testing_data):
 
     #Test the model using the test dataset
     test_loss = 0
-    acc = 0
-    resnet.eval()
+    correct = 0
+    model.eval()
 
-    for data,target in test_loader:        
-        output      = resnet(data)
-        loss        = criterion(output,target)
-        test_loss   += loss.item()
+    for data,target in testing_data:        
+        output = model(data)
+        #processed_output = post_processing(output)
         
-    avg_loss=test_loss/len(test_loader)
+        '''for i in range(len(processed_output)):
+            print("Guess: {}".format(ints_to_label[processed_output[i]]))
+            print("Actual: {}".format(ints_to_label[target[i]]))
+        
+            if processed_output[i] == target[i]:
+                correct += 1'''
+        
+        loss = criterion(output,target)
+        test_loss += loss.item()
+        
+    avg_loss=test_loss/len(testing_data)
 
     print("Average total loss is {:.6f}".format(avg_loss))
+    #print("{} correct guesses out of {} total images".format(correct, len(testing_data)))
+
+#Simple post processing for getting the rounded values
+'''def post_processing(output): 
+    results = []
+    for i in range(len(output.data)):
+        for j in range(len(output.data[i])):
+            print(output.data[i])
+            result = (float(output.data[i][j]))
+            if result < 0.5:
+                results.append(0)
+            else:
+                results.append(1)
+    return results'''
 
 #Class used to crop the images and standardize them to the same aspect ratio
 class ImageStandardizer(Dataset): 
@@ -189,4 +212,4 @@ if __name__ == '__main__':
 
     run_model(model, training_data, testing_data)
 
-    print(done)
+    print("complete")

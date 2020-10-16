@@ -26,9 +26,9 @@ ints_to_label={0:"face_no_mask",1:"face_with_mask"}
 # creating the function to visualize images and draw a box around the face
 def visualize_training(image_name):
     #Reads in the image and creates the plot
-    image=plt.imread(os.path.join('./mask_data/dataset/masks/images',image_name))
-    temp=train[train.name==image_name]
-    fig,ax=plt.subplots(1)
+    image  = plt.imread(os.path.join('./mask_data/dataset/masks/images',image_name))
+    temp   = train[train.name==image_name]
+    fig,ax = plt.subplots(1)
     ax.axis('off')
     fig.set_size_inches(20,10)
     ax.imshow(image)
@@ -70,15 +70,16 @@ def visualize_guess(image_name, labels):
     imgplot = plt.imshow(image)
     plt.show()
 
-def train_model(model, training_data):
-    epochs=3
-    training_loss=[]
+def run_model(model, training_data, testing_data):
+    #Trains the model for 5 epochs in batches of 10
+    epochs = 5
+    training_loss = []
 
     for epoch in range(epochs):
-        train_loss=0
+        train_loss = 0
         
         #Work with the training data in batches of 10 to make program more responsive
-        for batch,(data,target) in enumerate(training_data):
+        for batch, (data,target) in enumerate(training_data):
 
             optimizer.zero_grad()
             output=model(data)
@@ -94,20 +95,34 @@ def train_model(model, training_data):
     
     print(training_loss)
 
+    #Test the model using the test dataset
+    test_loss = 0
+    acc = 0
+    resnet.eval()
+
+    for data,target in test_loader:        
+        output      = resnet(data)
+        loss        = criterion(output,target)
+        test_loss   += loss.item()
+        
+    avg_loss=test_loss/len(test_loader)
+
+    print("Average total loss is {:.6f}".format(avg_loss))
+
 #Class used to crop the images and standardize them to the same aspect ratio
 class ImageStandardizer(Dataset): 
-    def __init__(self,dataframe,root_dir,transform=None):
-        self.annotation=dataframe
-        self.root_dir=root_dir
-        self.transform=transform      
+    def __init__(self,dataframe,file_path,transform=None):
+        self.annotation = dataframe
+        self.file_path   = file_path
+        self.transform  = transform      
         
     def __len__(self):
         return len(self.annotation)
     
-    def __getitem__(self,index):
-        image_path=os.path.join(self.root_dir,self.annotation.iloc[index,0])
-        cropped_image=Image.open(image_path).crop((self.annotation.iloc[index,1:5]))
-        label=torch.tensor(label_to_ints[self.annotation.iloc[index,5]])
+    def __getitem__(self, i):
+        image_path      = os.path.join(self.file_path,self.annotation.iloc[i, 0])
+        cropped_image   = Image.open(image_path).crop((self.annotation.iloc[i, 1:5]))
+        label           = torch.tensor(label_to_ints[self.annotation.iloc[i, 5]])
     
         #Resizes the cropped image to 224 x 224
         if self.transform:
@@ -115,7 +130,6 @@ class ImageStandardizer(Dataset):
             return(image,label)
 
 if __name__ == '__main__':
-
     #Read in training data
     train = pd.read_csv('./train_simple.csv')
 
@@ -129,24 +143,24 @@ if __name__ == '__main__':
         visualize_guess(random.choice(train.name.values), ['face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask'])
 
     #Training data makes up 75% of the dataset and testing data makes up the remaining 25%
-    train_size=int(len(train)*0.75)
-    test_size=len(train)-train_size
-    image_transformer=transforms.Compose([transforms.Resize((224,224)),
+    train_size = int(len(train)*0.75)
+    test_size  = len(train)-train_size
+    image_transformer = transforms.Compose([transforms.Resize((224,224)),
                                  transforms.RandomCrop((224,224)),
                                  transforms.ToTensor()])
 
-    image_path=os.path.join("./mask_data/dataset/masks/images")
+    image_path = os.path.join("./mask_data/dataset/masks/images")
 
     dataset = ImageStandardizer(train, image_path, image_transformer)
 
-    batch_size=32
+    batch_size = 10
 
     trainset,testset = torch.utils.data.random_split(dataset,[train_size,test_size])
     training_data    = DataLoader(trainset, batch_size, True)
     testing_data     = DataLoader(testset, batch_size, True)
 
-    dataiter=iter(training_data)
-    images,labels=dataiter.next()
+    dataiter = iter(training_data)
+    images,labels = dataiter.next()
 
     if SHOW_IMAGES:
         for i in np.arange(20):
@@ -168,11 +182,11 @@ if __name__ == '__main__':
     print(model.fc.out_features)
 
     #Sets the loss function
-    criterion=nn.CrossEntropyLoss()
+    criterion = nn.CrossEntropyLoss()
 
     #Sets the model learning rate
-    optimizer=torch.optim.SGD(model.parameters(),lr=0.005)
+    optimizer = torch.optim.SGD(model.parameters(),lr=0.005)
 
-    train_model(model, training_data)
+    run_model(model, training_data, testing_data)
 
     print(done)

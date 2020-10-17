@@ -72,7 +72,7 @@ def visualize_guess(image_name, labels):
 
 def run_model(model, training_data, testing_data):
     #Trains the model for 5 epochs in batches of 10
-    epochs = 1
+    epochs = 5
     training_loss = []
 
     for epoch in range(epochs):
@@ -93,7 +93,7 @@ def run_model(model, training_data, testing_data):
                 training_loss.append(train_loss) 
                 train_loss=0.0
     
-    print(training_loss)
+    print("Total training loss {}".format(training_loss))
 
     #Test the model using the test dataset
     test_loss = 0

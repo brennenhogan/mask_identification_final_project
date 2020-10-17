@@ -14,7 +14,7 @@ mask_data/dataset/masks/images
 
 # Library and Running
 To run please use python3
-Necessary libraries: matplotlib, pytorch, pandas
+Necessary libraries: matplotlib, pytorch, pandas, numpy
 
 # Data augmentation
 python3 augment.py

@@ -1,0 +1,455 @@
+Training dataset
+          name   x1   x2    y1    y2       classname
+0     2756.png   69  126   294   392  face_with_mask
+1     2756.png  505   10   723   283  face_with_mask
+2     4591.png  239    9   522   342  face_with_mask
+3     4287.png   80    0   629   599  face_with_mask
+4     4893.png  179    8   664   599  face_with_mask
+...        ...  ...  ...   ...   ...             ...
+5744  2376.png  227    2   438   173    face_no_mask
+5745  6221.jpg  635  183   741   313    face_no_mask
+5746  6096.jpg  264   53   489   324    face_no_mask
+5747  6326.jpg  850  271  1642  1393    face_no_mask
+5748  2460.png  650    5   805   184    face_no_mask
+
+[5749 rows x 6 columns]
+face_with_mask    4180
+face_no_mask      1569
+Name: classname, dtype: int64
+-----
+torch.Size([10, 3, 224, 224])
+torch.Size([10])
+Linear(in_features=512, out_features=2, bias=True)
+Epoch: 1, Total Images: 10
+Average Training Loss: 3.9311466813087463
+Epoch: 1, Total Images: 20
+Average Training Loss: 0.590498673170805
+Epoch: 1, Total Images: 30
+Average Training Loss: 0.45064842253923415
+Epoch: 1, Total Images: 40
+Average Training Loss: 0.23561258129775525
+Epoch: 1, Total Images: 50
+Average Training Loss: 0.21807268336415292
+Epoch: 1, Total Images: 60
+Average Training Loss: 0.1626183927990496
+Epoch: 1, Total Images: 70
+Average Training Loss: 0.25756321139633653
+Epoch: 1, Total Images: 80
+Average Training Loss: 0.1973829608410597
+Epoch: 1, Total Images: 90
+Average Training Loss: 0.15542884767055512
+Epoch: 1, Total Images: 100
+Average Training Loss: 0.14163880054838957
+Epoch: 1, Total Images: 110
+Average Training Loss: 0.17542518563568593
+Epoch: 1, Total Images: 120
+Average Training Loss: 0.1822165623307228
+Epoch: 1, Total Images: 130
+Average Training Loss: 0.10880708890035748
+Epoch: 1, Total Images: 140
+Average Training Loss: 0.22268970687873663
+Epoch: 1, Total Images: 150
+Average Training Loss: 0.15847164057195187
+Epoch: 1, Total Images: 160
+Average Training Loss: 0.11481853602454066
+Epoch: 1, Total Images: 170
+Average Training Loss: 0.043342913454398516
+Epoch: 1, Total Images: 180
+Average Training Loss: 0.12311395816504955
+Epoch: 1, Total Images: 190
+Average Training Loss: 0.09029452649410814
+Epoch: 1, Total Images: 200
+Average Training Loss: 0.08026175973936915
+Epoch: 1, Total Images: 210
+Average Training Loss: 0.16347711079288274
+Epoch: 1, Total Images: 220
+Average Training Loss: 0.17439423333853482
+Epoch: 1, Total Images: 230
+Average Training Loss: 0.10415692685637623
+Epoch: 1, Total Images: 240
+Average Training Loss: 0.06916618118993938
+Epoch: 1, Total Images: 250
+Average Training Loss: 0.07569950511679054
+Epoch: 1, Total Images: 260
+Average Training Loss: 0.048086829297244546
+Epoch: 1, Total Images: 270
+Average Training Loss: 0.15432705534622074
+Epoch: 1, Total Images: 280
+Average Training Loss: 0.14062202903442084
+Epoch: 1, Total Images: 290
+Average Training Loss: 0.06866890685632825
+Epoch: 1, Total Images: 300
+Average Training Loss: 0.03757043676450848
+Epoch: 1, Total Images: 310
+Average Training Loss: 0.030627764132805168
+Epoch: 1, Total Images: 320
+Average Training Loss: 0.10603325647534803
+Epoch: 1, Total Images: 330
+Average Training Loss: 0.0908570614643395
+Epoch: 1, Total Images: 340
+Average Training Loss: 0.1537222047802061
+Epoch: 1, Total Images: 350
+Average Training Loss: 0.24451495327521117
+Epoch: 1, Total Images: 360
+Average Training Loss: 0.14048903610091656
+Epoch: 1, Total Images: 370
+Average Training Loss: 0.16842310614883899
+Epoch: 1, Total Images: 380
+Average Training Loss: 0.09910624832846224
+Epoch: 1, Total Images: 390
+Average Training Loss: 0.0827436154242605
+Epoch: 1, Total Images: 400
+Average Training Loss: 0.1455919015686959
+Epoch: 1, Total Images: 410
+Average Training Loss: 0.13895190721377731
+Epoch: 1, Total Images: 420
+Average Training Loss: 0.05871659307740629
+Epoch: 1, Total Images: 430
+Average Training Loss: 0.2451650564558804
+Epoch: 2, Total Images: 10
+Average Training Loss: 0.059297259198501706
+Epoch: 2, Total Images: 20
+Average Training Loss: 0.08294325484894216
+Epoch: 2, Total Images: 30
+Average Training Loss: 0.06527666144538671
+Epoch: 2, Total Images: 40
+Average Training Loss: 0.08582651084288954
+Epoch: 2, Total Images: 50
+Average Training Loss: 0.07027650123927742
+Epoch: 2, Total Images: 60
+Average Training Loss: 0.05055456361733377
+Epoch: 2, Total Images: 70
+Average Training Loss: 0.015811870479956268
+Epoch: 2, Total Images: 80
+Average Training Loss: 0.021976123051717877
+Epoch: 2, Total Images: 90
+Average Training Loss: 0.026899835793301463
+Epoch: 2, Total Images: 100
+Average Training Loss: 0.008976829354651272
+Epoch: 2, Total Images: 110
+Average Training Loss: 0.1396884049056098
+Epoch: 2, Total Images: 120
+Average Training Loss: 0.04833495924249291
+Epoch: 2, Total Images: 130
+Average Training Loss: 0.015855046431533994
+Epoch: 2, Total Images: 140
+Average Training Loss: 0.03271517006214708
+Epoch: 2, Total Images: 150
+Average Training Loss: 0.05009860688587651
+Epoch: 2, Total Images: 160
+Average Training Loss: 0.07479513165308163
+Epoch: 2, Total Images: 170
+Average Training Loss: 0.08077026100363582
+Epoch: 2, Total Images: 180
+Average Training Loss: 0.0660127050243318
+Epoch: 2, Total Images: 190
+Average Training Loss: 0.030960611160844566
+Epoch: 2, Total Images: 200
+Average Training Loss: 0.0905311465030536
+Epoch: 2, Total Images: 210
+Average Training Loss: 0.009184666583314538
+Epoch: 2, Total Images: 220
+Average Training Loss: 0.08515412448905409
+Epoch: 2, Total Images: 230
+Average Training Loss: 0.09758699045050889
+Epoch: 2, Total Images: 240
+Average Training Loss: 0.055795781500637534
+Epoch: 2, Total Images: 250
+Average Training Loss: 0.014619450038298964
+Epoch: 2, Total Images: 260
+Average Training Loss: 0.028329630428925157
+Epoch: 2, Total Images: 270
+Average Training Loss: 0.033202058635652065
+Epoch: 2, Total Images: 280
+Average Training Loss: 0.01470626164227724
+Epoch: 2, Total Images: 290
+Average Training Loss: 0.042383490363135934
+Epoch: 2, Total Images: 300
+Average Training Loss: 0.010736668482422829
+Epoch: 2, Total Images: 310
+Average Training Loss: 0.04034268083050847
+Epoch: 2, Total Images: 320
+Average Training Loss: 0.0757008677115664
+Epoch: 2, Total Images: 330
+Average Training Loss: 0.037610237556509676
+Epoch: 2, Total Images: 340
+Average Training Loss: 0.05156607092358172
+Epoch: 2, Total Images: 350
+Average Training Loss: 0.05359219826059416
+Epoch: 2, Total Images: 360
+Average Training Loss: 0.04080304300878197
+Epoch: 2, Total Images: 370
+Average Training Loss: 0.04779227754916064
+Epoch: 2, Total Images: 380
+Average Training Loss: 0.09108726126141846
+Epoch: 2, Total Images: 390
+Average Training Loss: 0.11178295827703551
+Epoch: 2, Total Images: 400
+Average Training Loss: 0.056694352580234406
+Epoch: 2, Total Images: 410
+Average Training Loss: 0.02775967470370233
+Epoch: 2, Total Images: 420
+Average Training Loss: 0.03567033513681963
+Epoch: 2, Total Images: 430
+Average Training Loss: 0.04133354581426829
+Epoch: 3, Total Images: 10
+Average Training Loss: 0.15737016308121382
+Epoch: 3, Total Images: 20
+Average Training Loss: 0.04369809072231874
+Epoch: 3, Total Images: 30
+Average Training Loss: 0.04597212837543339
+Epoch: 3, Total Images: 40
+Average Training Loss: 0.03156711128540337
+Epoch: 3, Total Images: 50
+Average Training Loss: 0.026155681116506457
+Epoch: 3, Total Images: 60
+Average Training Loss: 0.012968429713509977
+Epoch: 3, Total Images: 70
+Average Training Loss: 0.025220186437945814
+Epoch: 3, Total Images: 80
+Average Training Loss: 0.023901971196755765
+Epoch: 3, Total Images: 90
+Average Training Loss: 0.03135578507790342
+Epoch: 3, Total Images: 100
+Average Training Loss: 0.011737394076772035
+Epoch: 3, Total Images: 110
+Average Training Loss: 0.011301781563088299
+Epoch: 3, Total Images: 120
+Average Training Loss: 0.04631355624878779
+Epoch: 3, Total Images: 130
+Average Training Loss: 0.026642015628749505
+Epoch: 3, Total Images: 140
+Average Training Loss: 0.011171963188098743
+Epoch: 3, Total Images: 150
+Average Training Loss: 0.02872542873956263
+Epoch: 3, Total Images: 160
+Average Training Loss: 0.017915661877486853
+Epoch: 3, Total Images: 170
+Average Training Loss: 0.029950420069508255
+Epoch: 3, Total Images: 180
+Average Training Loss: 0.009929098235443235
+Epoch: 3, Total Images: 190
+Average Training Loss: 0.04101209118962288
+Epoch: 3, Total Images: 200
+Average Training Loss: 0.009830026759300382
+Epoch: 3, Total Images: 210
+Average Training Loss: 0.015087571379262954
+Epoch: 3, Total Images: 220
+Average Training Loss: 0.025630573008675127
+Epoch: 3, Total Images: 230
+Average Training Loss: 0.026552966493181885
+Epoch: 3, Total Images: 240
+Average Training Loss: 0.004305581620428711
+Epoch: 3, Total Images: 250
+Average Training Loss: 0.0145117289328482
+Epoch: 3, Total Images: 260
+Average Training Loss: 0.031396725890226664
+Epoch: 3, Total Images: 270
+Average Training Loss: 0.011365164403105154
+Epoch: 3, Total Images: 280
+Average Training Loss: 0.011857269483152777
+Epoch: 3, Total Images: 290
+Average Training Loss: 0.04609625870361924
+Epoch: 3, Total Images: 300
+Average Training Loss: 0.03206065092235803
+Epoch: 3, Total Images: 310
+Average Training Loss: 0.06284710674954112
+Epoch: 3, Total Images: 320
+Average Training Loss: 0.015401746871066279
+Epoch: 3, Total Images: 330
+Average Training Loss: 0.010336402553366496
+Epoch: 3, Total Images: 340
+Average Training Loss: 0.011113689455669373
+Epoch: 3, Total Images: 350
+Average Training Loss: 0.014427901862654835
+Epoch: 3, Total Images: 360
+Average Training Loss: 0.020779509661952033
+Epoch: 3, Total Images: 370
+Average Training Loss: 0.03677277250681073
+Epoch: 3, Total Images: 380
+Average Training Loss: 0.005123366124462336
+Epoch: 3, Total Images: 390
+Average Training Loss: 0.033091694331960755
+Epoch: 3, Total Images: 400
+Average Training Loss: 0.031065065320581196
+Epoch: 3, Total Images: 410
+Average Training Loss: 0.019697298743994906
+Epoch: 3, Total Images: 420
+Average Training Loss: 0.011317921939189545
+Epoch: 3, Total Images: 430
+Average Training Loss: 0.014436381636187434
+Epoch: 4, Total Images: 10
+Average Training Loss: 0.09218187453225254
+Epoch: 4, Total Images: 20
+Average Training Loss: 0.022201115684583782
+Epoch: 4, Total Images: 30
+Average Training Loss: 0.009426514548249543
+Epoch: 4, Total Images: 40
+Average Training Loss: 0.02291229033144191
+Epoch: 4, Total Images: 50
+Average Training Loss: 0.027268339291913433
+Epoch: 4, Total Images: 60
+Average Training Loss: 0.016712278017075734
+Epoch: 4, Total Images: 70
+Average Training Loss: 0.03922616874915548
+Epoch: 4, Total Images: 80
+Average Training Loss: 0.012190184753853828
+Epoch: 4, Total Images: 90
+Average Training Loss: 0.022391252365196124
+Epoch: 4, Total Images: 100
+Average Training Loss: 0.007771628169575706
+Epoch: 4, Total Images: 110
+Average Training Loss: 0.02212531982222572
+Epoch: 4, Total Images: 120
+Average Training Loss: 0.004311898304149508
+Epoch: 4, Total Images: 130
+Average Training Loss: 0.006890124105848372
+Epoch: 4, Total Images: 140
+Average Training Loss: 0.007370201218873262
+Epoch: 4, Total Images: 150
+Average Training Loss: 0.004356736285262741
+Epoch: 4, Total Images: 160
+Average Training Loss: 0.005062137363711372
+Epoch: 4, Total Images: 170
+Average Training Loss: 0.011983092251466588
+Epoch: 4, Total Images: 180
+Average Training Loss: 0.01640092155430466
+Epoch: 4, Total Images: 190
+Average Training Loss: 0.018749891058541836
+Epoch: 4, Total Images: 200
+Average Training Loss: 0.0062331333640031515
+Epoch: 4, Total Images: 210
+Average Training Loss: 0.03187432116246782
+Epoch: 4, Total Images: 220
+Average Training Loss: 0.004711765801766887
+Epoch: 4, Total Images: 230
+Average Training Loss: 0.01981877851940226
+Epoch: 4, Total Images: 240
+Average Training Loss: 0.0072446542617399246
+Epoch: 4, Total Images: 250
+Average Training Loss: 0.007019395846873522
+Epoch: 4, Total Images: 260
+Average Training Loss: 0.013178855931619183
+Epoch: 4, Total Images: 270
+Average Training Loss: 0.01580038443207741
+Epoch: 4, Total Images: 280
+Average Training Loss: 0.014941943703161088
+Epoch: 4, Total Images: 290
+Average Training Loss: 0.012284956802614034
+Epoch: 4, Total Images: 300
+Average Training Loss: 0.005944526995881461
+Epoch: 4, Total Images: 310
+Average Training Loss: 0.02197377535630949
+Epoch: 4, Total Images: 320
+Average Training Loss: 0.004826626542489975
+Epoch: 4, Total Images: 330
+Average Training Loss: 0.0045851441274862735
+Epoch: 4, Total Images: 340
+Average Training Loss: 0.004080537566915154
+Epoch: 4, Total Images: 350
+Average Training Loss: 0.006862557516433299
+Epoch: 4, Total Images: 360
+Average Training Loss: 0.006880657791043632
+Epoch: 4, Total Images: 370
+Average Training Loss: 0.030219692457467317
+Epoch: 4, Total Images: 380
+Average Training Loss: 0.01794926432776265
+Epoch: 4, Total Images: 390
+Average Training Loss: 0.0063522745767841116
+Epoch: 4, Total Images: 400
+Average Training Loss: 0.00721682005096227
+Epoch: 4, Total Images: 410
+Average Training Loss: 0.011663469776976854
+Epoch: 4, Total Images: 420
+Average Training Loss: 0.010858504963107408
+Epoch: 4, Total Images: 430
+Average Training Loss: 0.037710913212504235
+Epoch: 5, Total Images: 10
+Average Training Loss: 0.07903854410978965
+Epoch: 5, Total Images: 20
+Average Training Loss: 0.06971173706988339
+Epoch: 5, Total Images: 30
+Average Training Loss: 0.056843460001982746
+Epoch: 5, Total Images: 40
+Average Training Loss: 0.01574472162174061
+Epoch: 5, Total Images: 50
+Average Training Loss: 0.012586167358676903
+Epoch: 5, Total Images: 60
+Average Training Loss: 0.0039696383581031116
+Epoch: 5, Total Images: 70
+Average Training Loss: 0.020725931058404968
+Epoch: 5, Total Images: 80
+Average Training Loss: 0.02852994625864085
+Epoch: 5, Total Images: 90
+Average Training Loss: 0.010768019378883765
+Epoch: 5, Total Images: 100
+Average Training Loss: 0.00830598214524798
+Epoch: 5, Total Images: 110
+Average Training Loss: 0.00705843535833992
+Epoch: 5, Total Images: 120
+Average Training Loss: 0.005603823950514198
+Epoch: 5, Total Images: 130
+Average Training Loss: 0.018710450912476518
+Epoch: 5, Total Images: 140
+Average Training Loss: 0.002818232891149819
+Epoch: 5, Total Images: 150
+Average Training Loss: 0.012560810553259217
+Epoch: 5, Total Images: 160
+Average Training Loss: 0.0111662354785949
+Epoch: 5, Total Images: 170
+Average Training Loss: 0.0034988520026672633
+Epoch: 5, Total Images: 180
+Average Training Loss: 0.002266659802990034
+Epoch: 5, Total Images: 190
+Average Training Loss: 0.019100111263105644
+Epoch: 5, Total Images: 200
+Average Training Loss: 0.023558931490697432
+Epoch: 5, Total Images: 210
+Average Training Loss: 0.010592540731886401
+Epoch: 5, Total Images: 220
+Average Training Loss: 0.004870349253178574
+Epoch: 5, Total Images: 230
+Average Training Loss: 0.002797539852326736
+Epoch: 5, Total Images: 240
+Average Training Loss: 0.005119125031342264
+Epoch: 5, Total Images: 250
+Average Training Loss: 0.015105840418254957
+Epoch: 5, Total Images: 260
+Average Training Loss: 0.010797825653571635
+Epoch: 5, Total Images: 270
+Average Training Loss: 0.0017940617981366813
+Epoch: 5, Total Images: 280
+Average Training Loss: 0.3708340513112489
+Epoch: 5, Total Images: 290
+Average Training Loss: 0.012585212051635607
+Epoch: 5, Total Images: 300
+Average Training Loss: 0.004579784657107666
+Epoch: 5, Total Images: 310
+Average Training Loss: 0.004834569396916777
+Epoch: 5, Total Images: 320
+Average Training Loss: 0.03752441884716973
+Epoch: 5, Total Images: 330
+Average Training Loss: 0.003602014877833426
+Epoch: 5, Total Images: 340
+Average Training Loss: 0.03448928989819251
+Epoch: 5, Total Images: 350
+Average Training Loss: 0.04068095743423328
+Epoch: 5, Total Images: 360
+Average Training Loss: 0.00805088209162932
+Epoch: 5, Total Images: 370
+Average Training Loss: 0.0018479072139598429
+Epoch: 5, Total Images: 380
+Average Training Loss: 0.008610268542543053
+Epoch: 5, Total Images: 390
+Average Training Loss: 0.0094010950793745
+Epoch: 5, Total Images: 400
+Average Training Loss: 0.0038389618683140727
+Epoch: 5, Total Images: 410
+Average Training Loss: 0.012301832289085723
+Epoch: 5, Total Images: 420
+Average Training Loss: 0.007951230142498388
+Epoch: 5, Total Images: 430
+Average Training Loss: 0.026027587440330534
+Total training loss [39.31146681308746, 5.90498673170805, 4.506484225392342, 2.3561258129775524, 2.180726833641529, 1.6261839279904962, 2.5756321139633656, 1.9738296084105968, 1.5542884767055511, 1.4163880054838955, 1.7542518563568592, 1.822165623307228, 1.0880708890035748, 2.226897068787366, 1.5847164057195187, 1.1481853602454066, 0.43342913454398513, 1.2311395816504955, 0.9029452649410814, 0.8026175973936915, 1.6347711079288274, 1.7439423333853483, 1.0415692685637623, 0.6916618118993938, 0.7569950511679053, 0.4808682929724455, 1.5432705534622073, 1.4062202903442085, 0.6866890685632825, 0.37570436764508486, 0.3062776413280517, 1.0603325647534803, 0.908570614643395, 1.5372220478020608, 2.4451495327521116, 1.4048903610091656, 1.68423106148839, 0.9910624832846224, 0.827436154242605, 1.455919015686959, 1.389519072137773, 0.5871659307740629, 2.451650564558804, 0.5929725919850171, 0.8294325484894216, 0.6527666144538671, 0.8582651084288955, 0.7027650123927742, 0.5055456361733377, 0.1581187047995627, 0.21976123051717877, 0.26899835793301463, 0.08976829354651272, 1.3968840490560979, 0.48334959242492914, 0.15855046431533992, 0.3271517006214708, 0.5009860688587651, 0.7479513165308163, 0.8077026100363582, 0.6601270502433181, 0.30960611160844564, 0.9053114650305361, 0.09184666583314538, 0.8515412448905408, 0.9758699045050889, 0.5579578150063753, 0.14619450038298965, 0.28329630428925157, 0.33202058635652065, 0.1470626164227724, 0.42383490363135934, 0.10736668482422829, 0.4034268083050847, 0.7570086771156639, 0.37610237556509674, 0.5156607092358172, 0.5359219826059416, 0.4080304300878197, 0.47792277549160644, 0.9108726126141846, 1.117829582770355, 0.5669435258023441, 0.2775967470370233, 0.3567033513681963, 0.4133354581426829, 1.5737016308121383, 0.4369809072231874, 0.45972128375433385, 0.3156711128540337, 0.2615568111650646, 0.12968429713509977, 0.25220186437945813, 0.23901971196755767, 0.3135578507790342, 0.11737394076772034, 0.11301781563088298, 0.4631355624878779, 0.26642015628749505, 0.11171963188098744, 0.2872542873956263, 0.17915661877486855, 0.29950420069508255, 0.09929098235443234, 0.4101209118962288, 0.09830026759300381, 0.15087571379262954, 0.2563057300867513, 0.26552966493181884, 0.04305581620428711, 0.145117289328482, 0.3139672589022666, 0.11365164403105155, 0.11857269483152777, 0.4609625870361924, 0.32060650922358036, 0.6284710674954113, 0.1540174687106628, 0.10336402553366497, 0.11113689455669373, 0.14427901862654835, 0.20779509661952034, 0.36772772506810725, 0.05123366124462336, 0.3309169433196075, 0.310650653205812, 0.19697298743994907, 0.11317921939189546, 0.14436381636187434, 0.9218187453225255, 0.22201115684583783, 0.09426514548249543, 0.2291229033144191, 0.27268339291913435, 0.16712278017075732, 0.39226168749155477, 0.12190184753853828, 0.22391252365196124, 0.07771628169575706, 0.2212531982222572, 0.043118983041495085, 0.06890124105848372, 0.07370201218873262, 0.04356736285262741, 0.05062137363711372, 0.11983092251466587, 0.1640092155430466, 0.18749891058541834, 0.06233133364003152, 0.3187432116246782, 0.04711765801766887, 0.19818778519402258, 0.07244654261739925, 0.07019395846873522, 0.13178855931619182, 0.15800384432077408, 0.14941943703161087, 0.12284956802614033, 0.059445269958814606, 0.21973775356309488, 0.04826626542489976, 0.045851441274862736, 0.040805375669151545, 0.06862557516433299, 0.06880657791043632, 0.3021969245746732, 0.17949264327762648, 0.06352274576784112, 0.0721682005096227, 0.11663469776976854, 0.10858504963107407, 0.3771091321250424, 0.7903854410978965, 0.6971173706988338, 0.5684346000198275, 0.1574472162174061, 0.12586167358676903, 0.039696383581031114, 0.20725931058404967, 0.2852994625864085, 0.10768019378883764, 0.08305982145247981, 0.0705843535833992, 0.056038239505141973, 0.18710450912476517, 0.02818232891149819, 0.12560810553259216, 0.11166235478594899, 0.03498852002667263, 0.022666598029900342, 0.19100111263105646, 0.23558931490697432, 0.10592540731886402, 0.04870349253178574, 0.02797539852326736, 0.05119125031342264, 0.15105840418254957, 0.10797825653571635, 0.017940617981366813, 3.708340513112489, 0.12585212051635608, 0.04579784657107666, 0.04834569396916777, 0.37524418847169727, 0.03602014877833426, 0.3448928989819251, 0.4068095743423328, 0.08050882091629319, 0.01847907213959843, 0.08610268542543054, 0.094010950793745, 0.038389618683140725, 0.12301832289085723, 0.07951230142498389, 0.26027587440330535]
+Average total loss is 0.034669
+complete

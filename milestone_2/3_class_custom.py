@@ -17,9 +17,9 @@ import numpy as np
 SHOW_IMAGES = False
 
 #Colors cooresponding to the labels
-class_color   = {"face_no_mask":"r","face_with_mask":"g"}
-label_to_ints = {"face_no_mask":0,"face_with_mask":1}
-ints_to_label = {0:"face_no_mask",1:"face_with_mask"}
+class_color   = {"face_no_mask":"r","face_with_mask":"g","face_with_mask_incorrect":"b"}
+label_to_ints = {"face_no_mask":0,"face_with_mask":1,"face_with_mask_incorrect":2}
+ints_to_label = {0:"face_no_mask",1:"face_with_mask",2:"face_with_mask_incorrect"}
 
 #Network with 3 hidden layers and sigmoid activation function
 class Network(nn.Module):
@@ -161,6 +161,9 @@ def run_model(model, training_data, testing_data):
             attempted += 1
             if processed_output[i] == target[i]:
                 correct += 1
+                effective_correct += 1
+            elif (target[i] == 1 or target[i] == 2) and (processed_output[i] == 1 or processed_output[i] == 2):
+                effective_correct += 1
         
         print("Predictions: {}".format(processed_output))
         print("Target: {}".format(target))
@@ -173,12 +176,14 @@ def run_model(model, training_data, testing_data):
 
     print("Average total loss is {:.6f}".format(avg_loss))
     print("{} correct guesses out of {} total images".format(correct, attempted))
+    print("{} effective correct guesses out of {} total images".format(effective_correct, attempted))
 
 #Simple post processing for getting the rounded values
 def post_processing(output): 
-    softmax = torch.exp(output).cpu()
-    prob = list(softmax.numpy())
-    return np.argmax(prob, axis=1)
+    print(output)
+    print(output.size())
+    probs, classes = output.topk(1, dim=1)
+    return classes
 
 if __name__ == '__main__':
     #Read in training data

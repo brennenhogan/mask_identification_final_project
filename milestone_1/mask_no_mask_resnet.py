@@ -12,6 +12,10 @@ from torch.nn import Linear, ReLU, CrossEntropyLoss, Sequential, Conv2d, MaxPool
 from torch.optim import Adam, SGD
 from PIL import Image
 import numpy as np 
+import ssl
+
+#Certificate for downloading the pretrained model
+ssl._create_default_https_context = ssl._create_unverified_context
 
 #Boolean which controls if the images are displayed or not
 SHOW_IMAGES = False
@@ -20,35 +24,6 @@ SHOW_IMAGES = False
 class_color   = {"face_no_mask":"r","face_with_mask":"g"}
 label_to_ints = {"face_no_mask":0,"face_with_mask":1}
 ints_to_label = {0:"face_no_mask",1:"face_with_mask"}
-
-#Network with 3 hidden layers and sigmoid activation function
-class Network(nn.Module):
-    def __init__(self):
-        super().__init__()
-        
-        self.cnn_layers = Sequential(
-            # Defining a 2D convolution layer
-            Conv2d(3, 4, kernel_size=3, stride=1, padding=1),
-            BatchNorm2d(4),
-            ReLU(inplace=True),
-            MaxPool2d(kernel_size=2, stride=2),
-            # Defining another 2D convolution layer
-            Conv2d(4, 4, kernel_size=3, stride=1, padding=1),
-            BatchNorm2d(4),
-            ReLU(inplace=True),
-            MaxPool2d(kernel_size=2, stride=2),
-        )
-
-        self.linear_layers = Sequential(
-            Linear(12544, 10)
-        )
-
-    # Defining the forward pass    
-    def forward(self, x):
-        x = self.cnn_layers(x)
-        x = x.view(x.size(0), -1)
-        x = self.linear_layers(x)
-        return x
 
 #Class used to crop the images and standardize them to the same aspect ratio
 class ImageStandardizer(Dataset): 
@@ -96,7 +71,7 @@ def visualize_training(image_name):
 # creating the function to visualize images and draw a box around the face
 def visualize_guess(image_name, labels):
     #Reads in the image and creates the plot
-    image=plt.imread(os.path.join('./mask_data/dataset/masks/images',image_name))
+    image=plt.imread(os.path.join('../mask_data/dataset/masks/images',image_name))
     temp=train[train.name==image_name]
     fig,ax=plt.subplots(1)
     ax.axis('off')
@@ -182,7 +157,7 @@ def post_processing(output):
 
 if __name__ == '__main__':
     #Read in training data
-    train = pd.read_csv('./abridged_data.csv')
+    train = pd.read_csv('../abridged_data.csv')
 
     print("dataset spread")
     print(train.classname.value_counts())
@@ -203,7 +178,7 @@ if __name__ == '__main__':
                                  transforms.RandomCrop((224,224)),
                                  transforms.ToTensor()])
 
-    image_path = os.path.join("./mask_data/dataset/masks/images")
+    image_path = os.path.join("../mask_data/dataset/masks/images")
 
     dataset = ImageStandardizer(train, image_path, image_transformer)
 
@@ -223,8 +198,14 @@ if __name__ == '__main__':
             plt.imshow(np.transpose(images[i],(1,2,0)))
             plt.show()
 
-    #Download the pre-trained rsnet facial recognition model
-    model = Network()
+    #Download the pre-trained rsnet facial recognition model    
+    model = torchvision.models.resnet34(True)
+
+    input_layer  = model.fc.in_features
+    output_layer = nn.Linear(input_layer,1)
+    model.fc.out_features = output_layer
+
+    print(model.fc.out_features)
 
     #Sets the loss function
     criterion = nn.CrossEntropyLoss()

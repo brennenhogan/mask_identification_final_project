@@ -145,6 +145,7 @@ def run_model(model, training_data, testing_data):
     #Test the model using the test dataset
     test_loss = 0
     correct = 0
+    effective_correct = 0
     attempted = 0
     model.eval()
 

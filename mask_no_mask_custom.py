@@ -12,7 +12,6 @@ from torch.nn import Linear, ReLU, CrossEntropyLoss, Sequential, Conv2d, MaxPool
 from torch.optim import Adam, SGD
 from PIL import Image
 import numpy as np 
-import ssl
 
 #Boolean which controls if the images are displayed or not
 SHOW_IMAGES = False

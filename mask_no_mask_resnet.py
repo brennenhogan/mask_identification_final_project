@@ -8,6 +8,8 @@ from torchvision import torch,datasets,transforms,models
 from torch.utils.data import Dataset,DataLoader
 import torch
 from torch import nn
+from torch.nn import Linear, ReLU, CrossEntropyLoss, Sequential, Conv2d, MaxPool2d, Module, Softmax, BatchNorm2d, Dropout
+from torch.optim import Adam, SGD
 from PIL import Image
 import numpy as np 
 import ssl
@@ -22,6 +24,26 @@ SHOW_IMAGES = False
 class_color   = {"face_no_mask":"r","face_with_mask":"g"}
 label_to_ints = {"face_no_mask":0,"face_with_mask":1}
 ints_to_label = {0:"face_no_mask",1:"face_with_mask"}
+
+#Class used to crop the images and standardize them to the same aspect ratio
+class ImageStandardizer(Dataset): 
+    def __init__(self,dataframe,file_path,transform=None):
+        self.annotation = dataframe
+        self.file_path   = file_path
+        self.transform  = transform      
+        
+    def __len__(self):
+        return len(self.annotation)
+    
+    def __getitem__(self, i):
+        image_path      = os.path.join(self.file_path,self.annotation.iloc[i, 0])
+        cropped_image   = Image.open(image_path).crop((self.annotation.iloc[i, 1:5]))
+        label           = torch.tensor(label_to_ints[self.annotation.iloc[i, 5]])
+    
+        #Resizes the cropped image to 224 x 224
+        if self.transform:
+            image=self.transform(cropped_image)
+            return(image,label)
 
 # creating the function to visualize images and draw a box around the face
 def visualize_training(image_name):
@@ -98,66 +120,46 @@ def run_model(model, training_data, testing_data):
     #Test the model using the test dataset
     test_loss = 0
     correct = 0
+    attempted = 0
     model.eval()
 
-    for data,target in testing_data:        
-        output = model(data)
-        #processed_output = post_processing(output)
+    for data,target in testing_data:
+      
+        output = None
+  
+        with torch.no_grad():
+            output = model(data)
+
+        processed_output = post_processing(output)
         
-        '''for i in range(len(processed_output)):
-            print("Guess: {}".format(ints_to_label[processed_output[i]]))
-            print("Actual: {}".format(ints_to_label[target[i]]))
-        
+        for i in range(len(processed_output)):
+            attempted += 1
             if processed_output[i] == target[i]:
-                correct += 1'''
+                correct += 1
         
+        print("Predictions: {}".format(processed_output))
+        print("Target: {}".format(target))
+        print("-----")
+                
         loss = criterion(output,target)
         test_loss += loss.item()
         
     avg_loss=test_loss/len(testing_data)
 
     print("Average total loss is {:.6f}".format(avg_loss))
-    #print("{} correct guesses out of {} total images".format(correct, len(testing_data)))
+    print("{} correct guesses out of {} total images".format(correct, attempted))
 
 #Simple post processing for getting the rounded values
-'''def post_processing(output): 
-    results = []
-    for i in range(len(output.data)):
-        for j in range(len(output.data[i])):
-            print(output.data[i])
-            result = (float(output.data[i][j]))
-            if result < 0.5:
-                results.append(0)
-            else:
-                results.append(1)
-    return results'''
-
-#Class used to crop the images and standardize them to the same aspect ratio
-class ImageStandardizer(Dataset): 
-    def __init__(self,dataframe,file_path,transform=None):
-        self.annotation = dataframe
-        self.file_path   = file_path
-        self.transform  = transform      
-        
-    def __len__(self):
-        return len(self.annotation)
-    
-    def __getitem__(self, i):
-        image_path      = os.path.join(self.file_path,self.annotation.iloc[i, 0])
-        cropped_image   = Image.open(image_path).crop((self.annotation.iloc[i, 1:5]))
-        label           = torch.tensor(label_to_ints[self.annotation.iloc[i, 5]])
-    
-        #Resizes the cropped image to 224 x 224
-        if self.transform:
-            image=self.transform(cropped_image)
-            return(image,label)
+def post_processing(output): 
+    softmax = torch.exp(output).cpu()
+    prob = list(softmax.numpy())
+    return np.argmax(prob, axis=1)
 
 if __name__ == '__main__':
     #Read in training data
-    train = pd.read_csv('./train_simple.csv')
+    train = pd.read_csv('./abridged_data.csv')
 
-    print("Training dataset")
-    print(train)
+    print("dataset spread")
     print(train.classname.value_counts())
     print("-----")
 
@@ -168,6 +170,10 @@ if __name__ == '__main__':
     #Training data makes up 75% of the dataset and testing data makes up the remaining 25%
     train_size = int(len(train)*0.75)
     test_size  = len(train)-train_size
+    
+    print("Train size: {}".format(train_size))
+    print("Test size: {}".format(test_size))
+
     image_transformer = transforms.Compose([transforms.Resize((224,224)),
                                  transforms.RandomCrop((224,224)),
                                  transforms.ToTensor()])
@@ -192,14 +198,11 @@ if __name__ == '__main__':
             plt.imshow(np.transpose(images[i],(1,2,0)))
             plt.show()
 
-    print(images.size())
-    print(labels.size())
-
-    #Download the pre-trained rsnet facial recognition model
+    #Download the pre-trained rsnet facial recognition model    
     model = torchvision.models.resnet34(True)
 
     input_layer  = model.fc.in_features
-    output_layer = nn.Linear(input_layer,2)
+    output_layer = nn.Linear(input_layer,1)
     model.fc.out_features = output_layer
 
     print(model.fc.out_features)
@@ -211,5 +214,3 @@ if __name__ == '__main__':
     optimizer = torch.optim.SGD(model.parameters(),lr=0.005)
 
     run_model(model, training_data, testing_data)
-
-    print("complete")

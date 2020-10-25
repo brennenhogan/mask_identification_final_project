@@ -181,8 +181,6 @@ def run_model(model, training_data, testing_data):
 
 #Simple post processing for getting the rounded values
 def post_processing(output): 
-    print(output)
-    print(output.size())
     probs, classes = output.topk(1, dim=1)
     return classes
 

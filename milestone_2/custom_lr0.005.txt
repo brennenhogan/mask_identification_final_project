@@ -1,0 +1,2223 @@
+dataset spread
+face_with_mask              4180
+face_no_mask                1569
+face_with_mask_incorrect     150
+Name: classname, dtype: int64
+-----
+Train size: 4424
+Test size: 1475
+Epoch: 1, Total Images: 10
+Average Training Loss: 1.97547248005867
+Epoch: 1, Total Images: 20
+Average Training Loss: 0.8505065008997917
+Epoch: 1, Total Images: 30
+Average Training Loss: 1.0991183951497079
+Epoch: 1, Total Images: 40
+Average Training Loss: 0.9334463655948639
+Epoch: 1, Total Images: 50
+Average Training Loss: 0.4815377163700759
+Epoch: 1, Total Images: 60
+Average Training Loss: 0.9245719626545906
+Epoch: 1, Total Images: 70
+Average Training Loss: 0.6113515987992286
+Epoch: 1, Total Images: 80
+Average Training Loss: 0.2266448580659926
+Epoch: 1, Total Images: 90
+Average Training Loss: 0.5507510483264924
+Epoch: 1, Total Images: 100
+Average Training Loss: 0.7113230235874652
+Epoch: 1, Total Images: 110
+Average Training Loss: 0.6408886164426804
+Epoch: 1, Total Images: 120
+Average Training Loss: 0.9011788159608841
+Epoch: 1, Total Images: 130
+Average Training Loss: 0.6116158366203308
+Epoch: 1, Total Images: 140
+Average Training Loss: 0.6344652339816094
+Epoch: 1, Total Images: 150
+Average Training Loss: 0.6091611832380295
+Epoch: 1, Total Images: 160
+Average Training Loss: 0.6310897499322892
+Epoch: 1, Total Images: 170
+Average Training Loss: 0.5186397828161716
+Epoch: 1, Total Images: 180
+Average Training Loss: 0.4080541402101517
+Epoch: 1, Total Images: 190
+Average Training Loss: 0.39390969425439837
+Epoch: 1, Total Images: 200
+Average Training Loss: 0.7062990114092826
+Epoch: 1, Total Images: 210
+Average Training Loss: 0.6618442505598068
+Epoch: 1, Total Images: 220
+Average Training Loss: 0.47351082488894464
+Epoch: 1, Total Images: 230
+Average Training Loss: 0.5329332649707794
+Epoch: 1, Total Images: 240
+Average Training Loss: 0.4913308102637529
+Epoch: 1, Total Images: 250
+Average Training Loss: 0.6161497697234154
+Epoch: 1, Total Images: 260
+Average Training Loss: 0.5055725473910571
+Epoch: 1, Total Images: 270
+Average Training Loss: 0.7167799219489097
+Epoch: 1, Total Images: 280
+Average Training Loss: 0.7184057429432869
+Epoch: 1, Total Images: 290
+Average Training Loss: 0.4269519492983818
+Epoch: 1, Total Images: 300
+Average Training Loss: 0.4601792961359024
+Epoch: 1, Total Images: 310
+Average Training Loss: 0.7887486718595028
+Epoch: 1, Total Images: 320
+Average Training Loss: 0.4289836842566729
+Epoch: 1, Total Images: 330
+Average Training Loss: 0.4456753353588283
+Epoch: 1, Total Images: 340
+Average Training Loss: 0.2838155686855316
+Epoch: 1, Total Images: 350
+Average Training Loss: 0.5007699433714151
+Epoch: 1, Total Images: 360
+Average Training Loss: 0.5659467101097106
+Epoch: 1, Total Images: 370
+Average Training Loss: 0.5367223337292671
+Epoch: 1, Total Images: 380
+Average Training Loss: 0.3310035178437829
+Epoch: 1, Total Images: 390
+Average Training Loss: 0.6260880157351494
+Epoch: 1, Total Images: 400
+Average Training Loss: 0.519606214016676
+Epoch: 1, Total Images: 410
+Average Training Loss: 0.2949157997965813
+Epoch: 1, Total Images: 420
+Average Training Loss: 0.4675466902554035
+Epoch: 1, Total Images: 430
+Average Training Loss: 0.4496561631560326
+Epoch: 1, Total Images: 440
+Average Training Loss: 0.7383962899446488
+Epoch: 2, Total Images: 10
+Average Training Loss: 0.2860663328319788
+Epoch: 2, Total Images: 20
+Average Training Loss: 0.3122738800942898
+Epoch: 2, Total Images: 30
+Average Training Loss: 0.3319682374596596
+Epoch: 2, Total Images: 40
+Average Training Loss: 0.3356737609952688
+Epoch: 2, Total Images: 50
+Average Training Loss: 0.23642153814435005
+Epoch: 2, Total Images: 60
+Average Training Loss: 0.28958279713988305
+Epoch: 2, Total Images: 70
+Average Training Loss: 0.5440915495157241
+Epoch: 2, Total Images: 80
+Average Training Loss: 0.41181874498724935
+Epoch: 2, Total Images: 90
+Average Training Loss: 0.3316508784890175
+Epoch: 2, Total Images: 100
+Average Training Loss: 0.45345847457647326
+Epoch: 2, Total Images: 110
+Average Training Loss: 0.47915542125701904
+Epoch: 2, Total Images: 120
+Average Training Loss: 0.32183161191642284
+Epoch: 2, Total Images: 130
+Average Training Loss: 0.5382575988769531
+Epoch: 2, Total Images: 140
+Average Training Loss: 0.488377620279789
+Epoch: 2, Total Images: 150
+Average Training Loss: 0.6176830008625984
+Epoch: 2, Total Images: 160
+Average Training Loss: 0.4106334552168846
+Epoch: 2, Total Images: 170
+Average Training Loss: 0.3454656884074211
+Epoch: 2, Total Images: 180
+Average Training Loss: 0.3693119503557682
+Epoch: 2, Total Images: 190
+Average Training Loss: 0.18876385428011416
+Epoch: 2, Total Images: 200
+Average Training Loss: 0.3399312309920788
+Epoch: 2, Total Images: 210
+Average Training Loss: 0.2993121214210987
+Epoch: 2, Total Images: 220
+Average Training Loss: 0.4062808230519295
+Epoch: 2, Total Images: 230
+Average Training Loss: 0.4919260047376156
+Epoch: 2, Total Images: 240
+Average Training Loss: 0.5675791814923287
+Epoch: 2, Total Images: 250
+Average Training Loss: 0.3628964699804783
+Epoch: 2, Total Images: 260
+Average Training Loss: 0.3452397435903549
+Epoch: 2, Total Images: 270
+Average Training Loss: 0.29128534719347954
+Epoch: 2, Total Images: 280
+Average Training Loss: 0.47252689115703106
+Epoch: 2, Total Images: 290
+Average Training Loss: 0.31087416000664236
+Epoch: 2, Total Images: 300
+Average Training Loss: 0.33245606161653996
+Epoch: 2, Total Images: 310
+Average Training Loss: 0.4408337607979774
+Epoch: 2, Total Images: 320
+Average Training Loss: 0.2392204686999321
+Epoch: 2, Total Images: 330
+Average Training Loss: 0.3558058738708496
+Epoch: 2, Total Images: 340
+Average Training Loss: 0.4040829487144947
+Epoch: 2, Total Images: 350
+Average Training Loss: 0.36256227679550646
+Epoch: 2, Total Images: 360
+Average Training Loss: 0.27821422293782233
+Epoch: 2, Total Images: 370
+Average Training Loss: 0.3847338244318962
+Epoch: 2, Total Images: 380
+Average Training Loss: 0.3527445405721664
+Epoch: 2, Total Images: 390
+Average Training Loss: 0.4011740989983082
+Epoch: 2, Total Images: 400
+Average Training Loss: 0.4456637095659971
+Epoch: 2, Total Images: 410
+Average Training Loss: 0.42325918674468993
+Epoch: 2, Total Images: 420
+Average Training Loss: 0.22881724387407304
+Epoch: 2, Total Images: 430
+Average Training Loss: 0.5032766833901405
+Epoch: 2, Total Images: 440
+Average Training Loss: 0.4412677973508835
+Epoch: 3, Total Images: 10
+Average Training Loss: 0.3268183473497629
+Epoch: 3, Total Images: 20
+Average Training Loss: 0.41534615457057955
+Epoch: 3, Total Images: 30
+Average Training Loss: 0.28286262825131414
+Epoch: 3, Total Images: 40
+Average Training Loss: 0.2695830278098583
+Epoch: 3, Total Images: 50
+Average Training Loss: 0.35381480157375333
+Epoch: 3, Total Images: 60
+Average Training Loss: 0.3801746964454651
+Epoch: 3, Total Images: 70
+Average Training Loss: 0.3110397163778543
+Epoch: 3, Total Images: 80
+Average Training Loss: 0.5902616277337074
+Epoch: 3, Total Images: 90
+Average Training Loss: 0.347771143913269
+Epoch: 3, Total Images: 100
+Average Training Loss: 0.32715200558304786
+Epoch: 3, Total Images: 110
+Average Training Loss: 0.3476753145456314
+Epoch: 3, Total Images: 120
+Average Training Loss: 0.23113541454076766
+Epoch: 3, Total Images: 130
+Average Training Loss: 0.2874088488519192
+Epoch: 3, Total Images: 140
+Average Training Loss: 0.30094625130295755
+Epoch: 3, Total Images: 150
+Average Training Loss: 0.3513344407081604
+Epoch: 3, Total Images: 160
+Average Training Loss: 0.372306390106678
+Epoch: 3, Total Images: 170
+Average Training Loss: 0.3285225838422775
+Epoch: 3, Total Images: 180
+Average Training Loss: 0.29861556440591813
+Epoch: 3, Total Images: 190
+Average Training Loss: 0.30408541187644006
+Epoch: 3, Total Images: 200
+Average Training Loss: 0.25376307442784307
+Epoch: 3, Total Images: 210
+Average Training Loss: 0.2641125448048115
+Epoch: 3, Total Images: 220
+Average Training Loss: 0.44447299018502234
+Epoch: 3, Total Images: 230
+Average Training Loss: 0.31190267391502857
+Epoch: 3, Total Images: 240
+Average Training Loss: 0.24395714327692986
+Epoch: 3, Total Images: 250
+Average Training Loss: 0.15221042186021805
+Epoch: 3, Total Images: 260
+Average Training Loss: 0.26503840200603007
+Epoch: 3, Total Images: 270
+Average Training Loss: 0.40348984822630884
+Epoch: 3, Total Images: 280
+Average Training Loss: 0.3487803624942899
+Epoch: 3, Total Images: 290
+Average Training Loss: 0.28718842938542366
+Epoch: 3, Total Images: 300
+Average Training Loss: 0.3211946230381727
+Epoch: 3, Total Images: 310
+Average Training Loss: 0.3294141598045826
+Epoch: 3, Total Images: 320
+Average Training Loss: 0.28020192719995973
+Epoch: 3, Total Images: 330
+Average Training Loss: 0.3275809019804001
+Epoch: 3, Total Images: 340
+Average Training Loss: 0.37055855095386503
+Epoch: 3, Total Images: 350
+Average Training Loss: 0.29929790571331977
+Epoch: 3, Total Images: 360
+Average Training Loss: 0.3241267971694469
+Epoch: 3, Total Images: 370
+Average Training Loss: 0.36426408886909484
+Epoch: 3, Total Images: 380
+Average Training Loss: 0.21360621005296707
+Epoch: 3, Total Images: 390
+Average Training Loss: 0.22608709186315537
+Epoch: 3, Total Images: 400
+Average Training Loss: 0.27169709503650663
+Epoch: 3, Total Images: 410
+Average Training Loss: 0.3869196705520153
+Epoch: 3, Total Images: 420
+Average Training Loss: 0.4386014762334526
+Epoch: 3, Total Images: 430
+Average Training Loss: 0.25588232446461917
+Epoch: 3, Total Images: 440
+Average Training Loss: 0.3940079316496849
+Epoch: 4, Total Images: 10
+Average Training Loss: 0.31704127285629513
+Epoch: 4, Total Images: 20
+Average Training Loss: 0.3306302696466446
+Epoch: 4, Total Images: 30
+Average Training Loss: 0.3118954535573721
+Epoch: 4, Total Images: 40
+Average Training Loss: 0.17195537397637964
+Epoch: 4, Total Images: 50
+Average Training Loss: 0.13784481659531594
+Epoch: 4, Total Images: 60
+Average Training Loss: 0.4303258329629898
+Epoch: 4, Total Images: 70
+Average Training Loss: 0.26078957319259644
+Epoch: 4, Total Images: 80
+Average Training Loss: 0.1560775063931942
+Epoch: 4, Total Images: 90
+Average Training Loss: 0.24689597375690936
+Epoch: 4, Total Images: 100
+Average Training Loss: 0.27325013652443886
+Epoch: 4, Total Images: 110
+Average Training Loss: 0.26329870279878376
+Epoch: 4, Total Images: 120
+Average Training Loss: 0.36458096094429493
+Epoch: 4, Total Images: 130
+Average Training Loss: 0.18289608955383302
+Epoch: 4, Total Images: 140
+Average Training Loss: 0.39550570026040077
+Epoch: 4, Total Images: 150
+Average Training Loss: 0.19756256137043238
+Epoch: 4, Total Images: 160
+Average Training Loss: 0.34059018865227697
+Epoch: 4, Total Images: 170
+Average Training Loss: 0.3275141164660454
+Epoch: 4, Total Images: 180
+Average Training Loss: 0.4395844854414463
+Epoch: 4, Total Images: 190
+Average Training Loss: 0.3765003353357315
+Epoch: 4, Total Images: 200
+Average Training Loss: 0.3113694220781326
+Epoch: 4, Total Images: 210
+Average Training Loss: 0.28342442885041236
+Epoch: 4, Total Images: 220
+Average Training Loss: 0.2904249295592308
+Epoch: 4, Total Images: 230
+Average Training Loss: 0.15896556861698627
+Epoch: 4, Total Images: 240
+Average Training Loss: 0.33548058941960335
+Epoch: 4, Total Images: 250
+Average Training Loss: 0.3706241972744465
+Epoch: 4, Total Images: 260
+Average Training Loss: 0.2815330736339092
+Epoch: 4, Total Images: 270
+Average Training Loss: 0.2905057992786169
+Epoch: 4, Total Images: 280
+Average Training Loss: 0.33370072618126867
+Epoch: 4, Total Images: 290
+Average Training Loss: 0.35213458389043806
+Epoch: 4, Total Images: 300
+Average Training Loss: 0.3044631160795689
+Epoch: 4, Total Images: 310
+Average Training Loss: 0.2707851123064756
+Epoch: 4, Total Images: 320
+Average Training Loss: 0.2804704837501049
+Epoch: 4, Total Images: 330
+Average Training Loss: 0.40181936994194983
+Epoch: 4, Total Images: 340
+Average Training Loss: 0.16437022387981415
+Epoch: 4, Total Images: 350
+Average Training Loss: 0.3379165045917034
+Epoch: 4, Total Images: 360
+Average Training Loss: 0.33156684674322606
+Epoch: 4, Total Images: 370
+Average Training Loss: 0.29349299110472205
+Epoch: 4, Total Images: 380
+Average Training Loss: 0.3685477554798126
+Epoch: 4, Total Images: 390
+Average Training Loss: 0.22092569917440413
+Epoch: 4, Total Images: 400
+Average Training Loss: 0.2884097468107939
+Epoch: 4, Total Images: 410
+Average Training Loss: 0.16725794076919556
+Epoch: 4, Total Images: 420
+Average Training Loss: 0.2808983355760574
+Epoch: 4, Total Images: 430
+Average Training Loss: 0.21787343882024288
+Epoch: 4, Total Images: 440
+Average Training Loss: 0.5018073800951243
+Epoch: 5, Total Images: 10
+Average Training Loss: 0.23628057092428206
+Epoch: 5, Total Images: 20
+Average Training Loss: 0.4046536847949028
+Epoch: 5, Total Images: 30
+Average Training Loss: 0.1656492527574301
+Epoch: 5, Total Images: 40
+Average Training Loss: 0.21888777166604995
+Epoch: 5, Total Images: 50
+Average Training Loss: 0.25078260339796543
+Epoch: 5, Total Images: 60
+Average Training Loss: 0.2540373716503382
+Epoch: 5, Total Images: 70
+Average Training Loss: 0.21645621582865715
+Epoch: 5, Total Images: 80
+Average Training Loss: 0.22946373485028743
+Epoch: 5, Total Images: 90
+Average Training Loss: 0.19518773220479488
+Epoch: 5, Total Images: 100
+Average Training Loss: 0.16166345104575158
+Epoch: 5, Total Images: 110
+Average Training Loss: 0.23418058790266513
+Epoch: 5, Total Images: 120
+Average Training Loss: 0.25753458105027677
+Epoch: 5, Total Images: 130
+Average Training Loss: 0.18940974436700345
+Epoch: 5, Total Images: 140
+Average Training Loss: 0.24120726324617864
+Epoch: 5, Total Images: 150
+Average Training Loss: 0.2863925214856863
+Epoch: 5, Total Images: 160
+Average Training Loss: 0.2852426551282406
+Epoch: 5, Total Images: 170
+Average Training Loss: 0.15493124797940255
+Epoch: 5, Total Images: 180
+Average Training Loss: 0.2355101376771927
+Epoch: 5, Total Images: 190
+Average Training Loss: 0.24018405377864838
+Epoch: 5, Total Images: 200
+Average Training Loss: 0.2970484226942062
+Epoch: 5, Total Images: 210
+Average Training Loss: 0.18162342272698878
+Epoch: 5, Total Images: 220
+Average Training Loss: 0.22872738353908062
+Epoch: 5, Total Images: 230
+Average Training Loss: 0.3110441964119673
+Epoch: 5, Total Images: 240
+Average Training Loss: 0.2746971189975739
+Epoch: 5, Total Images: 250
+Average Training Loss: 0.2457268565893173
+Epoch: 5, Total Images: 260
+Average Training Loss: 0.4696166947484016
+Epoch: 5, Total Images: 270
+Average Training Loss: 0.3000221006572247
+Epoch: 5, Total Images: 280
+Average Training Loss: 0.5267717510461807
+Epoch: 5, Total Images: 290
+Average Training Loss: 0.37661290615797044
+Epoch: 5, Total Images: 300
+Average Training Loss: 0.3271177764981985
+Epoch: 5, Total Images: 310
+Average Training Loss: 0.27318280190229416
+Epoch: 5, Total Images: 320
+Average Training Loss: 0.19251779466867447
+Epoch: 5, Total Images: 330
+Average Training Loss: 0.44559494182467463
+Epoch: 5, Total Images: 340
+Average Training Loss: 0.22724795155227184
+Epoch: 5, Total Images: 350
+Average Training Loss: 0.24477100744843483
+Epoch: 5, Total Images: 360
+Average Training Loss: 0.19784588236361741
+Epoch: 5, Total Images: 370
+Average Training Loss: 0.35152879655361174
+Epoch: 5, Total Images: 380
+Average Training Loss: 0.35289008915424347
+Epoch: 5, Total Images: 390
+Average Training Loss: 0.2541410431265831
+Epoch: 5, Total Images: 400
+Average Training Loss: 0.26101757809519766
+Epoch: 5, Total Images: 410
+Average Training Loss: 0.21599306985735894
+Epoch: 5, Total Images: 420
+Average Training Loss: 0.2670511804521084
+Epoch: 5, Total Images: 430
+Average Training Loss: 0.13732458632439376
+Epoch: 5, Total Images: 440
+Average Training Loss: 0.33459778800606726
+Total training loss [19.7547248005867, 8.505065008997917, 10.991183951497078, 9.334463655948639, 4.815377163700759, 9.245719626545906, 6.113515987992287, 2.266448580659926, 5.507510483264923, 7.113230235874653, 6.408886164426804, 9.011788159608841, 6.116158366203308, 6.3446523398160934, 6.091611832380295, 6.310897499322891, 5.1863978281617165, 4.080541402101517, 3.9390969425439835, 7.062990114092827, 6.618442505598068, 4.735108248889446, 5.329332649707794, 4.913308102637529, 6.161497697234154, 5.05572547391057, 7.167799219489098, 7.184057429432869, 4.269519492983818, 4.601792961359024, 7.887486718595028, 4.289836842566729, 4.456753353588283, 2.838155686855316, 5.007699433714151, 5.659467101097107, 5.367223337292671, 3.310035178437829, 6.260880157351494, 5.1960621401667595, 2.9491579979658127, 4.675466902554035, 4.496561631560326, 7.383962899446487, 2.860663328319788, 3.122738800942898, 3.3196823745965958, 3.356737609952688, 2.3642153814435005, 2.8958279713988304, 5.440915495157242, 4.118187449872494, 3.316508784890175, 4.534584745764732, 4.79155421257019, 3.2183161191642284, 5.382575988769531, 4.88377620279789, 6.176830008625984, 4.106334552168846, 3.454656884074211, 3.693119503557682, 1.8876385428011417, 3.399312309920788, 2.993121214210987, 4.062808230519295, 4.919260047376156, 5.675791814923286, 3.628964699804783, 3.452397435903549, 2.9128534719347954, 4.725268911570311, 3.1087416000664234, 3.3245606161653996, 4.4083376079797745, 2.392204686999321, 3.558058738708496, 4.040829487144947, 3.6256227679550648, 2.7821422293782234, 3.847338244318962, 3.5274454057216644, 4.011740989983082, 4.456637095659971, 4.232591867446899, 2.2881724387407303, 5.032766833901405, 4.412677973508835, 3.268183473497629, 4.153461545705795, 2.8286262825131416, 2.695830278098583, 3.5381480157375336, 3.801746964454651, 3.1103971637785435, 5.902616277337074, 3.4777114391326904, 3.2715200558304787, 3.476753145456314, 2.3113541454076767, 2.8740884885191917, 3.0094625130295753, 3.513344407081604, 3.72306390106678, 3.2852258384227753, 2.986155644059181, 3.0408541187644005, 2.537630744278431, 2.6411254480481148, 4.4447299018502235, 3.1190267391502857, 2.4395714327692986, 1.5221042186021805, 2.650384020060301, 4.034898482263088, 3.4878036249428988, 2.8718842938542366, 3.211946230381727, 3.294141598045826, 2.8020192719995975, 3.275809019804001, 3.7055855095386505, 2.992979057133198, 3.2412679716944695, 3.6426408886909485, 2.1360621005296707, 2.2608709186315536, 2.7169709503650665, 3.869196705520153, 4.386014762334526, 2.5588232446461916, 3.940079316496849, 3.170412728562951, 3.306302696466446, 3.118954535573721, 1.7195537397637963, 1.3784481659531593, 4.303258329629898, 2.6078957319259644, 1.560775063931942, 2.4689597375690937, 2.7325013652443886, 2.632987027987838, 3.6458096094429493, 1.82896089553833, 3.9550570026040077, 1.9756256137043238, 3.40590188652277, 3.275141164660454, 4.395844854414463, 3.765003353357315, 3.1136942207813263, 2.8342442885041237, 2.904249295592308, 1.5896556861698627, 3.3548058941960335, 3.706241972744465, 2.8153307363390923, 2.905057992786169, 3.337007261812687, 3.521345838904381, 3.0446311607956886, 2.7078511230647564, 2.804704837501049, 4.018193699419498, 1.6437022387981415, 3.379165045917034, 3.3156684674322605, 2.9349299110472202, 3.685477554798126, 2.2092569917440414, 2.8840974681079388, 1.6725794076919556, 2.8089833557605743, 2.178734388202429, 5.0180738009512424, 2.3628057092428207, 4.046536847949028, 1.6564925275743008, 2.1888777166604996, 2.5078260339796543, 2.5403737165033817, 2.1645621582865715, 2.2946373485028744, 1.9518773220479488, 1.6166345104575157, 2.3418058790266514, 2.5753458105027676, 1.8940974436700344, 2.4120726324617863, 2.863925214856863, 2.852426551282406, 1.5493124797940254, 2.355101376771927, 2.4018405377864838, 2.9704842269420624, 1.816234227269888, 2.287273835390806, 3.1104419641196728, 2.7469711899757385, 2.457268565893173, 4.696166947484016, 3.0002210065722466, 5.267717510461807, 3.7661290615797043, 3.271177764981985, 2.7318280190229416, 1.9251779466867447, 4.455949418246746, 2.2724795155227184, 2.4477100744843483, 1.9784588236361742, 3.5152879655361176, 3.5289008915424347, 2.541410431265831, 2.6101757809519768, 2.1599306985735893, 2.670511804521084, 1.3732458632439375, 3.3459778800606728]
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0]])
+Target: tensor([0, 2, 1, 0, 0, 1, 0, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 0, 1, 1, 2, 1, 2, 0])
+-----
+Predictions: tensor([[0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 0, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([0, 1, 1, 0, 1, 0, 1, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 1, 0, 0, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [0],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 0, 0, 0, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [2],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 2, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 0, 0, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([0, 1, 1, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 0, 0, 1, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 0, 0, 0, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([2, 1, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 0, 0, 0, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 0, 0, 0, 2, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 0, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 0, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 0, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 0, 1, 2, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 0, 1, 1, 0, 1, 0, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 2, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 0, 1, 1, 0, 0, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 2, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([0, 1, 0, 1, 0, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 2, 1, 1, 0, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 2, 2, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 2, 1, 0, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 2, 1, 1, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 0, 1, 2, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 0, 0, 1, 1, 1, 1, 2, 1])
+-----
+Predictions: tensor([[0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 0, 0, 1, 0, 1, 2, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 0, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 0, 1, 1, 2, 1, 0])
+-----
+Predictions: tensor([[0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 0, 1, 0, 1, 1, 2, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 0, 1, 0, 0, 1, 1, 0, 2])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 0, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([2, 0, 0, 0, 1, 0, 1, 2, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 0, 0, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([2, 1, 1, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 0, 0, 0, 1, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 2, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 2, 0, 2, 0, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 0, 0, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 0, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 1, 0, 0, 0, 1, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 2, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 0, 0, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 2, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 0, 0, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 0, 0, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 0, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [2],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([0, 1, 1, 1, 1, 0, 1, 2, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([0, 1, 0, 1, 0, 1, 2, 1, 0, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0]])
+Target: tensor([0, 1, 0, 1, 0, 1, 0, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 0, 1, 2, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 2, 1, 1, 1, 1, 0, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 1, 0, 0, 1, 1, 0, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 0, 0, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 0, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 2, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 0, 0, 0, 0, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 2, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 0, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 2, 0, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 2, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 0, 1, 1, 2, 1, 1, 1, 0, 0])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 0, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1]])
+Target: tensor([0, 1, 0, 1, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 0, 1, 1, 2, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 2, 0, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 1, 1, 1, 0, 0, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 0, 0, 1, 1, 2, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 0, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1]])
+Target: tensor([1, 0, 1, 0, 0, 1, 0, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 0, 1, 0, 0, 0, 0])
+-----
+Predictions: tensor([[0],
+        [0],
+        [1],
+        [0],
+        [0],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 0, 2, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1]])
+Target: tensor([2, 0, 2, 0, 1, 1, 0, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1]])
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([1, 0, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0]])
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[1],
+        [0],
+        [0],
+        [1],
+        [0],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 0, 1, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [0],
+        [0]])
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1]])
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 0, 1])
+-----
+Predictions: tensor([[0],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0],
+        [0],
+        [1],
+        [1],
+        [0]])
+Target: tensor([0, 1, 1, 1, 1, 0, 0, 1, 1, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [1],
+        [0]])
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: tensor([[1],
+        [1],
+        [0],
+        [1],
+        [1]])
+Target: tensor([1, 1, 0, 1, 1])
+-----
+Average total loss is 0.461195
+1253 correct guesses out of 1475 total images
+1292 effective correct guesses out of 1475 total images

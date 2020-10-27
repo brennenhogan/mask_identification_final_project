@@ -2218,6 +2218,6 @@ Predictions: tensor([[0],
         [1]])
 Target: tensor([0, 1, 1, 1, 1])
 -----
-Average total loss is 0.467762
+Average total loss is 0.0467762
 1245 correct predictions out of 1475 total images
 1278 effective correct predictions out of 1475 total images

@@ -148,7 +148,7 @@ def run_model(model, training_data, testing_data):
         loss = criterion(output,target)
         test_loss += loss.item()
         
-    avg_loss=test_loss/len(testing_data)
+    avg_loss=test_loss/attempted
 
     print("Average total loss is {:.6f}".format(avg_loss))
     print("{} correct predictions out of {} total images".format(correct, attempted))

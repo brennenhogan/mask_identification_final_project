@@ -176,8 +176,8 @@ def run_model(model, training_data, testing_data):
     avg_loss=test_loss/len(testing_data)
 
     print("Average total loss is {:.6f}".format(avg_loss))
-    print("{} correct guesses out of {} total images".format(correct, attempted))
-    print("{} effective correct guesses out of {} total images".format(effective_correct, attempted))
+    print("{} correct predictions out of {} total images".format(correct, attempted))
+    print("{} effective correct predictions out of {} total images".format(effective_correct, attempted))
 
 #Simple post processing for getting the rounded values
 def post_processing(output): 

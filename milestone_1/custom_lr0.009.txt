@@ -868,5 +868,5 @@ Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 0])
 Predictions: [0 1 0 1 1 1 1 1]
 Target: tensor([0, 1, 1, 1, 1, 0, 0, 1])
 -----
-Average total loss is 0.027353
+Average testing loss is 0.027353
 1286 correct predictions out of 1438 total images

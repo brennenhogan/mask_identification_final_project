@@ -212,6 +212,6 @@ if __name__ == '__main__':
     criterion = nn.CrossEntropyLoss()
 
     #Sets the model learning rate
-    optimizer = torch.optim.SGD(model.parameters(),lr=0.005)
+    optimizer = torch.optim.SGD(model.parameters(),lr=0.009)
 
     run_model(model, training_data, testing_data)

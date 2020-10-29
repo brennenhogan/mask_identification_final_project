@@ -183,7 +183,7 @@ def post_processing(output):
 
 if __name__ == '__main__':
     #Read in training data
-    train = pd.read_csv('../abridged_data.csv')
+    train = pd.read_csv('../mask_no_mask.csv')
 
     print("dataset spread")
     print(train.classname.value_counts())

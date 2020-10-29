@@ -144,10 +144,11 @@ def run_model(model, training_data, testing_data):
         loss = criterion(output,target)
         test_loss += loss.item()
         
-    avg_loss=test_loss/len(testing_data)
+    avg_loss=test_loss/attempted
 
     print("Average total loss is {:.6f}".format(avg_loss))
-    print("{} correct guesses out of {} total images".format(correct, attempted))
+    print("{} correct predictions out of {} total images".format(correct, attempted))
+
 
 #Simple post processing for getting the rounded values
 def post_processing(output): 
@@ -157,7 +158,7 @@ def post_processing(output):
 
 if __name__ == '__main__':
     #Read in training data
-    train = pd.read_csv('../abridged_data.csv')
+    train = pd.read_csv('../mask_no_mask.csv')
 
     print("dataset spread")
     print(train.classname.value_counts())

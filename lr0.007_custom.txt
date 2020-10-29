@@ -1,0 +1,872 @@
+dataset spread
+face_with_mask    4180
+face_no_mask      1569
+Name: classname, dtype: int64
+-----
+Train size: 4311
+Test size: 1438
+Epoch: 1, Total Images: 10
+Average Training Loss: 2.2661982223391535
+Epoch: 1, Total Images: 20
+Average Training Loss: 0.8728802233934403
+Epoch: 1, Total Images: 30
+Average Training Loss: 0.4205694258213043
+Epoch: 1, Total Images: 40
+Average Training Loss: 0.709614335000515
+Epoch: 1, Total Images: 50
+Average Training Loss: 0.540291789919138
+Epoch: 1, Total Images: 60
+Average Training Loss: 0.971055717766285
+Epoch: 1, Total Images: 70
+Average Training Loss: 0.624332508444786
+Epoch: 1, Total Images: 80
+Average Training Loss: 0.7183107778429985
+Epoch: 1, Total Images: 90
+Average Training Loss: 0.9016602091491223
+Epoch: 1, Total Images: 100
+Average Training Loss: 0.3235270455479622
+Epoch: 1, Total Images: 110
+Average Training Loss: 0.3837211899459362
+Epoch: 1, Total Images: 120
+Average Training Loss: 0.6725951835513115
+Epoch: 1, Total Images: 130
+Average Training Loss: 0.46795921102166177
+Epoch: 1, Total Images: 140
+Average Training Loss: 0.5131682485342026
+Epoch: 1, Total Images: 150
+Average Training Loss: 0.42019525691866877
+Epoch: 1, Total Images: 160
+Average Training Loss: 0.6824711598455906
+Epoch: 1, Total Images: 170
+Average Training Loss: 0.30187186002731325
+Epoch: 1, Total Images: 180
+Average Training Loss: 0.42640919182449577
+Epoch: 1, Total Images: 190
+Average Training Loss: 0.6611188247799873
+Epoch: 1, Total Images: 200
+Average Training Loss: 0.4844801414757967
+Epoch: 1, Total Images: 210
+Average Training Loss: 0.5006349155679345
+Epoch: 1, Total Images: 220
+Average Training Loss: 0.4653006613254547
+Epoch: 1, Total Images: 230
+Average Training Loss: 0.30468146204948426
+Epoch: 1, Total Images: 240
+Average Training Loss: 0.7278885945677758
+Epoch: 1, Total Images: 250
+Average Training Loss: 0.17640897501260042
+Epoch: 1, Total Images: 260
+Average Training Loss: 0.3802771925926208
+Epoch: 1, Total Images: 270
+Average Training Loss: 0.4332137074321508
+Epoch: 1, Total Images: 280
+Average Training Loss: 0.36209294497966765
+Epoch: 1, Total Images: 290
+Average Training Loss: 0.39176053628325463
+Epoch: 1, Total Images: 300
+Average Training Loss: 0.3599589616060257
+Epoch: 1, Total Images: 310
+Average Training Loss: 0.22284400463104248
+Epoch: 1, Total Images: 320
+Average Training Loss: 0.3375234380364418
+Epoch: 1, Total Images: 330
+Average Training Loss: 0.3971386879682541
+Epoch: 1, Total Images: 340
+Average Training Loss: 0.4172490850090981
+Epoch: 1, Total Images: 350
+Average Training Loss: 0.2627666175365448
+Epoch: 1, Total Images: 360
+Average Training Loss: 0.28686449080705645
+Epoch: 1, Total Images: 370
+Average Training Loss: 0.3994467258453369
+Epoch: 1, Total Images: 380
+Average Training Loss: 0.3704392516985536
+Epoch: 1, Total Images: 390
+Average Training Loss: 0.5858423233032226
+Epoch: 1, Total Images: 400
+Average Training Loss: 0.4997231140732765
+Epoch: 1, Total Images: 410
+Average Training Loss: 0.2041128408163786
+Epoch: 1, Total Images: 420
+Average Training Loss: 0.20382001549005507
+Epoch: 1, Total Images: 430
+Average Training Loss: 0.30831832699477674
+Epoch: 2, Total Images: 10
+Average Training Loss: 0.3504664860665798
+Epoch: 2, Total Images: 20
+Average Training Loss: 0.3727189555764198
+Epoch: 2, Total Images: 30
+Average Training Loss: 0.5981704771518708
+Epoch: 2, Total Images: 40
+Average Training Loss: 0.28807246685028076
+Epoch: 2, Total Images: 50
+Average Training Loss: 0.40359285175800325
+Epoch: 2, Total Images: 60
+Average Training Loss: 0.381148187071085
+Epoch: 2, Total Images: 70
+Average Training Loss: 0.3595946108922362
+Epoch: 2, Total Images: 80
+Average Training Loss: 0.38964594304561617
+Epoch: 2, Total Images: 90
+Average Training Loss: 0.35276971012353897
+Epoch: 2, Total Images: 100
+Average Training Loss: 0.1739556223154068
+Epoch: 2, Total Images: 110
+Average Training Loss: 0.43356264755129814
+Epoch: 2, Total Images: 120
+Average Training Loss: 0.33492633551359174
+Epoch: 2, Total Images: 130
+Average Training Loss: 0.22984042018651962
+Epoch: 2, Total Images: 140
+Average Training Loss: 0.32386604845523836
+Epoch: 2, Total Images: 150
+Average Training Loss: 0.18870601281523705
+Epoch: 2, Total Images: 160
+Average Training Loss: 0.43755371421575545
+Epoch: 2, Total Images: 170
+Average Training Loss: 0.27681851387023926
+Epoch: 2, Total Images: 180
+Average Training Loss: 0.23730164766311646
+Epoch: 2, Total Images: 190
+Average Training Loss: 0.3174448162317276
+Epoch: 2, Total Images: 200
+Average Training Loss: 0.2765884824097157
+Epoch: 2, Total Images: 210
+Average Training Loss: 0.2104627162218094
+Epoch: 2, Total Images: 220
+Average Training Loss: 0.26899915002286434
+Epoch: 2, Total Images: 230
+Average Training Loss: 0.1766378279775381
+Epoch: 2, Total Images: 240
+Average Training Loss: 0.36294037774205207
+Epoch: 2, Total Images: 250
+Average Training Loss: 0.3008772738277912
+Epoch: 2, Total Images: 260
+Average Training Loss: 0.25220486223697663
+Epoch: 2, Total Images: 270
+Average Training Loss: 0.25415663346648215
+Epoch: 2, Total Images: 280
+Average Training Loss: 0.26036465987563134
+Epoch: 2, Total Images: 290
+Average Training Loss: 0.21882316768169402
+Epoch: 2, Total Images: 300
+Average Training Loss: 0.1795478142797947
+Epoch: 2, Total Images: 310
+Average Training Loss: 0.3190371565520763
+Epoch: 2, Total Images: 320
+Average Training Loss: 0.3153241820633411
+Epoch: 2, Total Images: 330
+Average Training Loss: 0.26971948742866514
+Epoch: 2, Total Images: 340
+Average Training Loss: 0.17731730751693248
+Epoch: 2, Total Images: 350
+Average Training Loss: 0.2935466481372714
+Epoch: 2, Total Images: 360
+Average Training Loss: 0.2116763461381197
+Epoch: 2, Total Images: 370
+Average Training Loss: 0.2758504129946232
+Epoch: 2, Total Images: 380
+Average Training Loss: 0.20557071277871727
+Epoch: 2, Total Images: 390
+Average Training Loss: 0.2654075503349304
+Epoch: 2, Total Images: 400
+Average Training Loss: 0.28931067921221254
+Epoch: 2, Total Images: 410
+Average Training Loss: 0.29898510575294496
+Epoch: 2, Total Images: 420
+Average Training Loss: 0.2431521128863096
+Epoch: 2, Total Images: 430
+Average Training Loss: 0.3053182639181614
+Epoch: 3, Total Images: 10
+Average Training Loss: 0.39388026744127275
+Epoch: 3, Total Images: 20
+Average Training Loss: 0.323560993373394
+Epoch: 3, Total Images: 30
+Average Training Loss: 0.2664705578237772
+Epoch: 3, Total Images: 40
+Average Training Loss: 0.3150165118277073
+Epoch: 3, Total Images: 50
+Average Training Loss: 0.13166479989886284
+Epoch: 3, Total Images: 60
+Average Training Loss: 0.16107036918401718
+Epoch: 3, Total Images: 70
+Average Training Loss: 0.25742989853024484
+Epoch: 3, Total Images: 80
+Average Training Loss: 0.39511419013142585
+Epoch: 3, Total Images: 90
+Average Training Loss: 0.23984053395688534
+Epoch: 3, Total Images: 100
+Average Training Loss: 0.20698863193392752
+Epoch: 3, Total Images: 110
+Average Training Loss: 0.2954130798578262
+Epoch: 3, Total Images: 120
+Average Training Loss: 0.16555898487567902
+Epoch: 3, Total Images: 130
+Average Training Loss: 0.3521967105567455
+Epoch: 3, Total Images: 140
+Average Training Loss: 0.16166337318718432
+Epoch: 3, Total Images: 150
+Average Training Loss: 0.4302593972533941
+Epoch: 3, Total Images: 160
+Average Training Loss: 0.2873072024434805
+Epoch: 3, Total Images: 170
+Average Training Loss: 0.2594775579869747
+Epoch: 3, Total Images: 180
+Average Training Loss: 0.25733724161982535
+Epoch: 3, Total Images: 190
+Average Training Loss: 0.2728009283542633
+Epoch: 3, Total Images: 200
+Average Training Loss: 0.2602470349520445
+Epoch: 3, Total Images: 210
+Average Training Loss: 0.175684554874897
+Epoch: 3, Total Images: 220
+Average Training Loss: 0.2460467407479882
+Epoch: 3, Total Images: 230
+Average Training Loss: 0.23207729384303094
+Epoch: 3, Total Images: 240
+Average Training Loss: 0.2096315398812294
+Epoch: 3, Total Images: 250
+Average Training Loss: 0.2091110095381737
+Epoch: 3, Total Images: 260
+Average Training Loss: 0.33593509197235105
+Epoch: 3, Total Images: 270
+Average Training Loss: 0.16688537709414958
+Epoch: 3, Total Images: 280
+Average Training Loss: 0.24478283748030663
+Epoch: 3, Total Images: 290
+Average Training Loss: 0.19878810010850428
+Epoch: 3, Total Images: 300
+Average Training Loss: 0.3647603213787079
+Epoch: 3, Total Images: 310
+Average Training Loss: 0.31511143781244755
+Epoch: 3, Total Images: 320
+Average Training Loss: 0.2597091905772686
+Epoch: 3, Total Images: 330
+Average Training Loss: 0.25215736478567125
+Epoch: 3, Total Images: 340
+Average Training Loss: 0.16112921424210072
+Epoch: 3, Total Images: 350
+Average Training Loss: 0.3214362621307373
+Epoch: 3, Total Images: 360
+Average Training Loss: 0.22489423900842667
+Epoch: 3, Total Images: 370
+Average Training Loss: 0.26377275474369527
+Epoch: 3, Total Images: 380
+Average Training Loss: 0.32631797045469285
+Epoch: 3, Total Images: 390
+Average Training Loss: 0.2344517633318901
+Epoch: 3, Total Images: 400
+Average Training Loss: 0.33163969591259956
+Epoch: 3, Total Images: 410
+Average Training Loss: 0.1609857939183712
+Epoch: 3, Total Images: 420
+Average Training Loss: 0.32269060909748076
+Epoch: 3, Total Images: 430
+Average Training Loss: 0.25484133809804915
+Epoch: 4, Total Images: 10
+Average Training Loss: 0.27662349343299864
+Epoch: 4, Total Images: 20
+Average Training Loss: 0.17504894956946374
+Epoch: 4, Total Images: 30
+Average Training Loss: 0.2783089943230152
+Epoch: 4, Total Images: 40
+Average Training Loss: 0.23544657975435257
+Epoch: 4, Total Images: 50
+Average Training Loss: 0.27688699662685395
+Epoch: 4, Total Images: 60
+Average Training Loss: 0.18502646796405314
+Epoch: 4, Total Images: 70
+Average Training Loss: 0.32299228832125665
+Epoch: 4, Total Images: 80
+Average Training Loss: 0.2003724306821823
+Epoch: 4, Total Images: 90
+Average Training Loss: 0.292061921954155
+Epoch: 4, Total Images: 100
+Average Training Loss: 0.3177241049706936
+Epoch: 4, Total Images: 110
+Average Training Loss: 0.23306577131152154
+Epoch: 4, Total Images: 120
+Average Training Loss: 0.2503664944320917
+Epoch: 4, Total Images: 130
+Average Training Loss: 0.27396958470344546
+Epoch: 4, Total Images: 140
+Average Training Loss: 0.3088147506117821
+Epoch: 4, Total Images: 150
+Average Training Loss: 0.27278434336185453
+Epoch: 4, Total Images: 160
+Average Training Loss: 0.2182982128113508
+Epoch: 4, Total Images: 170
+Average Training Loss: 0.18681485168635845
+Epoch: 4, Total Images: 180
+Average Training Loss: 0.23882669173181056
+Epoch: 4, Total Images: 190
+Average Training Loss: 0.22364506423473357
+Epoch: 4, Total Images: 200
+Average Training Loss: 0.20084440130740405
+Epoch: 4, Total Images: 210
+Average Training Loss: 0.20126406326889992
+Epoch: 4, Total Images: 220
+Average Training Loss: 0.2724154647439718
+Epoch: 4, Total Images: 230
+Average Training Loss: 0.2922735992819071
+Epoch: 4, Total Images: 240
+Average Training Loss: 0.2012913653627038
+Epoch: 4, Total Images: 250
+Average Training Loss: 0.2574709076434374
+Epoch: 4, Total Images: 260
+Average Training Loss: 0.20283418521285057
+Epoch: 4, Total Images: 270
+Average Training Loss: 0.17394042573869228
+Epoch: 4, Total Images: 280
+Average Training Loss: 0.1956859990954399
+Epoch: 4, Total Images: 290
+Average Training Loss: 0.16369369756430388
+Epoch: 4, Total Images: 300
+Average Training Loss: 0.24947898965328932
+Epoch: 4, Total Images: 310
+Average Training Loss: 0.252320272102952
+Epoch: 4, Total Images: 320
+Average Training Loss: 0.22635457962751387
+Epoch: 4, Total Images: 330
+Average Training Loss: 0.24751026146113872
+Epoch: 4, Total Images: 340
+Average Training Loss: 0.1806749127805233
+Epoch: 4, Total Images: 350
+Average Training Loss: 0.2869984969496727
+Epoch: 4, Total Images: 360
+Average Training Loss: 0.23185781463980676
+Epoch: 4, Total Images: 370
+Average Training Loss: 0.18520692680031062
+Epoch: 4, Total Images: 380
+Average Training Loss: 0.135428998619318
+Epoch: 4, Total Images: 390
+Average Training Loss: 0.20630275569856166
+Epoch: 4, Total Images: 400
+Average Training Loss: 0.18108731955289842
+Epoch: 4, Total Images: 410
+Average Training Loss: 0.21620504930615425
+Epoch: 4, Total Images: 420
+Average Training Loss: 0.28390499465167524
+Epoch: 4, Total Images: 430
+Average Training Loss: 0.29351763501763345
+Epoch: 5, Total Images: 10
+Average Training Loss: 0.2511575847864151
+Epoch: 5, Total Images: 20
+Average Training Loss: 0.2647841330617666
+Epoch: 5, Total Images: 30
+Average Training Loss: 0.19956220928579568
+Epoch: 5, Total Images: 40
+Average Training Loss: 0.11804485209286213
+Epoch: 5, Total Images: 50
+Average Training Loss: 0.18463798742741347
+Epoch: 5, Total Images: 60
+Average Training Loss: 0.21973544657230376
+Epoch: 5, Total Images: 70
+Average Training Loss: 0.19242134168744088
+Epoch: 5, Total Images: 80
+Average Training Loss: 0.39475645050406455
+Epoch: 5, Total Images: 90
+Average Training Loss: 0.2555971145629883
+Epoch: 5, Total Images: 100
+Average Training Loss: 0.20192965902388096
+Epoch: 5, Total Images: 110
+Average Training Loss: 0.3902991805225611
+Epoch: 5, Total Images: 120
+Average Training Loss: 0.32190690040588377
+Epoch: 5, Total Images: 130
+Average Training Loss: 0.17575612515211106
+Epoch: 5, Total Images: 140
+Average Training Loss: 0.130833600461483
+Epoch: 5, Total Images: 150
+Average Training Loss: 0.18829967882484197
+Epoch: 5, Total Images: 160
+Average Training Loss: 0.20580043271183968
+Epoch: 5, Total Images: 170
+Average Training Loss: 0.1805915005505085
+Epoch: 5, Total Images: 180
+Average Training Loss: 0.18729942254722118
+Epoch: 5, Total Images: 190
+Average Training Loss: 0.20428859237581493
+Epoch: 5, Total Images: 200
+Average Training Loss: 0.11858475655317306
+Epoch: 5, Total Images: 210
+Average Training Loss: 0.19920229092240332
+Epoch: 5, Total Images: 220
+Average Training Loss: 0.25043185278773306
+Epoch: 5, Total Images: 230
+Average Training Loss: 0.14811487607657908
+Epoch: 5, Total Images: 240
+Average Training Loss: 0.31949194744229314
+Epoch: 5, Total Images: 250
+Average Training Loss: 0.1945913413539529
+Epoch: 5, Total Images: 260
+Average Training Loss: 0.14739040266722442
+Epoch: 5, Total Images: 270
+Average Training Loss: 0.21377472076565027
+Epoch: 5, Total Images: 280
+Average Training Loss: 0.20928458794951438
+Epoch: 5, Total Images: 290
+Average Training Loss: 0.1866200665012002
+Epoch: 5, Total Images: 300
+Average Training Loss: 0.17201129123568534
+Epoch: 5, Total Images: 310
+Average Training Loss: 0.28417233265936376
+Epoch: 5, Total Images: 320
+Average Training Loss: 0.2436942271888256
+Epoch: 5, Total Images: 330
+Average Training Loss: 0.21279834881424903
+Epoch: 5, Total Images: 340
+Average Training Loss: 0.1964945487678051
+Epoch: 5, Total Images: 350
+Average Training Loss: 0.26574984900653364
+Epoch: 5, Total Images: 360
+Average Training Loss: 0.18252161741256714
+Epoch: 5, Total Images: 370
+Average Training Loss: 0.12541142739355565
+Epoch: 5, Total Images: 380
+Average Training Loss: 0.22090026810765268
+Epoch: 5, Total Images: 390
+Average Training Loss: 0.18125724140554667
+Epoch: 5, Total Images: 400
+Average Training Loss: 0.15485202185809613
+Epoch: 5, Total Images: 410
+Average Training Loss: 0.3035638563334942
+Epoch: 5, Total Images: 420
+Average Training Loss: 0.25527150109410285
+Epoch: 5, Total Images: 430
+Average Training Loss: 0.2233617540448904
+Total training loss [22.661982223391533, 8.728802233934402, 4.205694258213043, 7.09614335000515, 5.4029178991913795, 9.71055717766285, 6.243325084447861, 7.183107778429985, 9.016602091491222, 3.235270455479622, 3.837211899459362, 6.725951835513115, 4.679592110216618, 5.131682485342026, 4.2019525691866875, 6.824711598455906, 3.0187186002731323, 4.264091918244958, 6.611188247799873, 4.844801414757967, 5.006349155679345, 4.653006613254547, 3.0468146204948425, 7.278885945677757, 1.7640897501260042, 3.8027719259262085, 4.332137074321508, 3.6209294497966766, 3.9176053628325462, 3.599589616060257, 2.228440046310425, 3.375234380364418, 3.971386879682541, 4.1724908500909805, 2.627666175365448, 2.8686449080705643, 3.994467258453369, 3.7043925169855356, 5.858423233032227, 4.997231140732765, 2.041128408163786, 2.038200154900551, 3.0831832699477673, 3.504664860665798, 3.7271895557641983, 5.981704771518707, 2.8807246685028076, 4.035928517580032, 3.8114818707108498, 3.5959461089223623, 3.8964594304561615, 3.5276971012353897, 1.739556223154068, 4.335626475512981, 3.3492633551359177, 2.2984042018651962, 3.2386604845523834, 1.8870601281523705, 4.375537142157555, 2.7681851387023926, 2.3730164766311646, 3.174448162317276, 2.7658848240971565, 2.104627162218094, 2.6899915002286434, 1.766378279775381, 3.629403777420521, 3.008772738277912, 2.5220486223697662, 2.5415663346648216, 2.6036465987563133, 2.1882316768169403, 1.795478142797947, 3.1903715655207634, 3.1532418206334114, 2.6971948742866516, 1.7731730751693249, 2.935466481372714, 2.116763461381197, 2.758504129946232, 2.055707127787173, 2.654075503349304, 2.8931067921221256, 2.9898510575294495, 2.4315211288630962, 3.053182639181614, 3.9388026744127274, 3.23560993373394, 2.664705578237772, 3.150165118277073, 1.3166479989886284, 1.6107036918401718, 2.5742989853024483, 3.9511419013142586, 2.3984053395688534, 2.0698863193392754, 2.9541307985782623, 1.6555898487567902, 3.5219671055674553, 1.6166337318718433, 4.302593972533941, 2.873072024434805, 2.594775579869747, 2.5733724161982536, 2.728009283542633, 2.602470349520445, 1.75684554874897, 2.4604674074798822, 2.3207729384303093, 2.096315398812294, 2.0911100953817368, 3.3593509197235107, 1.668853770941496, 2.4478283748030663, 1.987881001085043, 3.647603213787079, 3.1511143781244755, 2.597091905772686, 2.5215736478567123, 1.6112921424210072, 3.214362621307373, 2.2489423900842667, 2.6377275474369526, 3.2631797045469284, 2.344517633318901, 3.3163969591259956, 1.609857939183712, 3.2269060909748077, 2.5484133809804916, 2.7662349343299866, 1.7504894956946373, 2.783089943230152, 2.3544657975435257, 2.7688699662685394, 1.8502646796405315, 3.2299228832125664, 2.003724306821823, 2.9206192195415497, 3.177241049706936, 2.3306577131152153, 2.503664944320917, 2.7396958470344543, 3.0881475061178207, 2.7278434336185455, 2.1829821281135082, 1.8681485168635845, 2.3882669173181057, 2.236450642347336, 2.0084440130740404, 2.012640632688999, 2.7241546474397182, 2.922735992819071, 2.012913653627038, 2.574709076434374, 2.0283418521285057, 1.7394042573869228, 1.956859990954399, 1.6369369756430387, 2.494789896532893, 2.52320272102952, 2.263545796275139, 2.4751026146113873, 1.806749127805233, 2.869984969496727, 2.3185781463980675, 1.8520692680031061, 1.35428998619318, 2.0630275569856167, 1.810873195528984, 2.1620504930615425, 2.8390499465167522, 2.9351763501763344, 2.511575847864151, 2.6478413306176662, 1.9956220928579569, 1.1804485209286213, 1.8463798742741346, 2.1973544657230377, 1.9242134168744087, 3.9475645050406456, 2.555971145629883, 2.0192965902388096, 3.9029918052256107, 3.219069004058838, 1.7575612515211105, 1.30833600461483, 1.8829967882484198, 2.0580043271183968, 1.805915005505085, 1.8729942254722118, 2.042885923758149, 1.1858475655317307, 1.9920229092240334, 2.504318527877331, 1.481148760765791, 3.1949194744229317, 1.9459134135395288, 1.473904026672244, 2.1377472076565027, 2.092845879495144, 1.866200665012002, 1.7201129123568535, 2.8417233265936375, 2.436942271888256, 2.1279834881424904, 1.964945487678051, 2.6574984900653362, 1.8252161741256714, 1.2541142739355564, 2.2090026810765266, 1.8125724140554667, 1.5485202185809612, 3.035638563334942, 2.5527150109410286, 2.233617540448904]
+Predictions: [0 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 0, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 0, 1, 1, 0, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 0, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 0, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 0, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 0, 1, 1, 0])
+-----
+Predictions: [1 1 1 0 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([0, 1, 1, 0, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 0 1 1]
+Target: tensor([1, 0, 1, 1, 0, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 0 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 0, 0, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 0, 0, 0])
+-----
+Predictions: [1 1 1 1 1 0 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 0 1 1 1 1 1 1 1 1]
+Target: tensor([0, 0, 1, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 0, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 0 1 1 1]
+Target: tensor([1, 1, 1, 0, 0, 1, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 0 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 0 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 0, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 0, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 0, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 0, 0, 0, 0, 0, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 0 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 0, 1, 1, 0, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 0, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 0, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 0]
+Target: tensor([0, 1, 1, 0, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 0 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 0, 1, 0, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 0 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 0, 0, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 0 0 1 0 1 1 1]
+Target: tensor([1, 1, 1, 0, 0, 1, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 0, 0, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 0 0 1 1 1]
+Target: tensor([1, 0, 1, 0, 1, 0, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 0]
+Target: tensor([0, 1, 0, 0, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 0, 0, 1, 1, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 0, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 0, 0, 0, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 0, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 0 1 0 1]
+Target: tensor([0, 0, 1, 1, 1, 0, 0, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 0, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 0, 1, 0, 0, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 0 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 0, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 0 0 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 0, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 0 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [0 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 1, 1, 0, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 0 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 0 1 1]
+Target: tensor([0, 1, 1, 0, 0, 1, 0, 0, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 0, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 0, 1, 0, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 0, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 0, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 0, 1, 0])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 0, 0, 0, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 0, 1, 1, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 0, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 0, 0])
+-----
+Predictions: [0 1 0 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 0, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 0, 1, 1, 0, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 0, 1, 1, 0, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 0, 0, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 0, 1, 1, 0, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 0, 1, 1, 1, 0, 1, 1, 0, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 0, 1, 0, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 0, 1, 0, 1, 1, 0, 1, 1, 0])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Predictions: [1 1 0 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 0, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1 1 1]
+Target: tensor([0, 1, 1, 1, 1, 1, 1, 1, 1, 1])
+-----
+Predictions: [1 1 1 1 1 1 1 1]
+Target: tensor([1, 1, 1, 1, 1, 1, 1, 0])
+-----
+Average total loss is 0.075870
+1092 correct predictions out of 1438 total images

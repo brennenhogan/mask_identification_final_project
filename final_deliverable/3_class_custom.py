@@ -124,7 +124,7 @@ def run_model_test(model, training_data, testing_data):
             train_loss += loss.item()
         
             if batch%10==9:
-                print("Epoch: {}, Total Images: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
+                print("Epoch: {}, Total Batches: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
                 training_loss.append(train_loss) 
                 train_loss=0.0
     
@@ -186,7 +186,7 @@ def run_model_demo(model, training_data, image_path, image_transformer):
             train_loss += loss.item()
         
             if batch%10==9:
-                print("Epoch: {}, Total Images: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
+                print("Epoch: {}, Total Batches: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
                 training_loss.append(train_loss) 
                 train_loss=0.0
     
@@ -218,44 +218,6 @@ def run_model_demo(model, training_data, image_path, image_transformer):
             print("The guess is: {}".format(guess))
             visualize_guess(image, guess)
 
-
-    '''
-    test_loss = 0
-    correct = 0
-    effective_correct = 0
-    attempted = 0
-    model.eval()
-
-    for data,target in testing_data:
-      
-        output = None
-  
-        with torch.no_grad():
-            output = model(data)
-
-        processed_output = post_processing(output)
-        
-        for i in range(len(processed_output)):
-            attempted += 1
-            if processed_output[i] == target[i]:
-                correct += 1
-                effective_correct += 1
-            elif (target[i] == 1 or target[i] == 2) and (processed_output[i] == 1 or processed_output[i] == 2):
-                effective_correct += 1
-        
-        print("Predictions: {}".format(processed_output))
-        print("Target: {}".format(target))
-        print("-----")
-                
-        loss = criterion(output,target)
-        test_loss += loss.item()
-        
-    avg_loss=test_loss/attempted
-
-    print("Average total loss is {:.6f}".format(avg_loss))
-    print("{} correct predictions out of {} total images".format(correct, attempted))
-    print("{} effective correct predictions out of {} total images".format(effective_correct, attempted))'''
-
 #Simple post processing for getting the rounded values
 def post_processing(output): 
     probs, classes = output.topk(1, dim=1)
@@ -263,6 +225,7 @@ def post_processing(output):
 
 if __name__ == '__main__':
     mode = input("Enter your mode (T for test, D for demo): ")
+
     #Read in training data
     train = pd.read_csv('../abridged_data.csv')
 
@@ -293,13 +256,6 @@ if __name__ == '__main__':
 
     dataiter = iter(training_data)
     images,labels = dataiter.next()
-
-    if SHOW_IMAGES:
-        for i in np.arange(20):
-            fig,ax=plt.subplots(1)
-            ax.axis('off')
-            plt.imshow(np.transpose(images[i],(1,2,0)))
-            plt.show()
 
     #Download the pre-trained rsnet facial recognition model
     model = Network()

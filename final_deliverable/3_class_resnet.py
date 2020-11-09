@@ -45,54 +45,42 @@ class ImageStandardizer(Dataset):
             image=self.transform(cropped_image)
             return(image,label)
 
-# creating the function to visualize images and draw a box around the face
-def visualize_training(image_name):
-    #Reads in the image and creates the plot
-    image  = plt.imread(os.path.join('./mask_data/dataset/masks/images',image_name))
-    temp   = train[train.name==image_name]
-    fig,ax = plt.subplots(1)
-    ax.axis('off')
-    fig.set_size_inches(20,10)
-    ax.imshow(image)
-    for i in range(len(temp)):
-        #Grab the x and y bounds of the face from the training data
-        x1,x2,y1,y2=temp.values[i][1:5]
-        #Draw the rectange around the face
-        patch=patches.Rectangle((x1,x2),y1-x1,y2-x2,linewidth=2, 
-                                edgecolor=class_color[temp.values[i][5]],facecolor="none",)
-        #Add the text box
-        ax.text(x1, x2, temp.values[i][5], style='italic',bbox={'facecolor': 'white', 'alpha': 0.75})
-        ax.add_patch(patch)
-
-    #Plots the image with the label
-    imgplot = plt.imshow(image)
-    plt.show()
+#Class used to crop the images and standardize them to the same aspect ratio
+class UserData(Dataset): 
+    def __init__(self,file_path,image_path,transform=None):
+        self.file_path   = file_path
+        self.image_path  = image_path
+        self.transform   = transform      
+        
+    def __len__(self):
+        return 1
+    
+    def __getitem__(self, i):
+        image_path      = os.path.join(self.file_path,self.image_path)
+        cropped_image   = Image.open(image_path)
+    
+        #Resizes the cropped image to 224 x 224
+        if self.transform:
+            image=self.transform(cropped_image)
+            return(image)
 
 # creating the function to visualize images and draw a box around the face
-def visualize_guess(image_name, labels):
+def visualize_guess(image_name, label):
     #Reads in the image and creates the plot
     image=plt.imread(os.path.join('../mask_data/dataset/masks/images',image_name))
-    temp=train[train.name==image_name]
     fig,ax=plt.subplots(1)
     ax.axis('off')
     fig.set_size_inches(20,10)
     ax.imshow(image)
-    for i in range(len(temp)):
 
-        #Grab the x and y bounds of the face from the training data
-        x1,x2,y1,y2=temp.values[i][1:5]
-        #Draw the rectange around the face
-        patch=patches.Rectangle((x1,x2),y1-x1,y2-x2,linewidth=2, 
-                                edgecolor=class_color[labels[i]],facecolor="none",)
-        #Add the text box
-        ax.text(x1, x2, labels[i], style='italic',bbox={'facecolor': 'white', 'alpha': 0.75})
-        ax.add_patch(patch)
+    #Add the text box
+    ax.text(0, 0, label, style='italic',bbox={'facecolor': class_color[label], 'alpha': 0.75})
 
     #Plots the image with the label
     imgplot = plt.imshow(image)
     plt.show()
 
-def run_model(model, training_data, testing_data):
+def run_model_test(model, training_data, testing_data):
     #Trains the model for 5 epochs in batches of 10
     epochs = 5
     training_loss = []
@@ -111,7 +99,7 @@ def run_model(model, training_data, testing_data):
             train_loss += loss.item()
         
             if batch%10==9:
-                print("Epoch: {}, Total Images: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
+                print("Epoch: {}, Total Batches: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
                 training_loss.append(train_loss) 
                 train_loss=0.0
     
@@ -154,22 +142,71 @@ def run_model(model, training_data, testing_data):
     print("{} correct predictions out of {} total images".format(correct, attempted))
     print("{} effective correct predictions out of {} total images".format(effective_correct, attempted))
 
+def run_model_demo(model, training_data, image_path, image_transformer):
+    #Trains the model for 5 epochs in batches of 10
+    epochs = 5
+    training_loss = []
+
+    for epoch in range(epochs):
+        train_loss = 0
+        
+        #Work with the training data in batches of 10 to make program more responsive
+        for batch, (data,target) in enumerate(training_data):
+
+            optimizer.zero_grad()
+            output=model(data)
+            loss=criterion(output,target)
+            loss.backward()
+            optimizer.step()
+            train_loss += loss.item()
+        
+            if batch%10==9:
+                print("Epoch: {}, Total Batches: {}\nAverage Training Loss: {}".format(epoch+1,batch+1,train_loss/10))
+                training_loss.append(train_loss) 
+                train_loss=0.0
+    
+    print("Total training loss {}".format(training_loss))
+
+    #Run the model demo
+    print("The model is trained and ready to make predictions!")
+
+    model.eval()
+
+    while True:
+        image = input("Enter the file name of the image to be evaluated or E to exit: ")
+        
+        if image == "E":
+            print("Thanks for participating!")
+            break
+
+        user_image = UserData(image_path, image, image_transformer)
+        user_data    = DataLoader(user_image)
+
+        for data in user_data:
+            output = None
+
+            with torch.no_grad():
+                output = model(data)
+
+            processed_output = post_processing(output)
+            guess = ints_to_label[processed_output.item()]
+            print("The guess is: {}".format(guess))
+            visualize_guess(image, guess)
+
 #Simple post processing for getting the rounded values
 def post_processing(output): 
     probs, classes = output.topk(1, dim=1)
     return classes
 
 if __name__ == '__main__':
+    mode = input("Enter your mode (T for test, D for demo): ")
+
     #Read in training data
-    train = pd.read_csv('../3_class.csv')
+    train = pd.read_csv('../abridged_data.csv')
 
     print("dataset spread")
     print(train.classname.value_counts())
     print("-----")
-
-    if SHOW_IMAGES:
-        visualize_training(random.choice(train.name.values))
-        visualize_guess(random.choice(train.name.values), ['face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask'])
 
     #Training data makes up 75% of the dataset and testing data makes up the remaining 25%
     train_size = int(len(train)*0.75)
@@ -195,13 +232,6 @@ if __name__ == '__main__':
     dataiter = iter(training_data)
     images,labels = dataiter.next()
 
-    if SHOW_IMAGES:
-        for i in np.arange(20):
-            fig,ax=plt.subplots(1)
-            ax.axis('off')
-            plt.imshow(np.transpose(images[i],(1,2,0)))
-            plt.show()
-
     #Download the pre-trained rsnet facial recognition model    
     model = torchvision.models.resnet34(True)
 
@@ -217,4 +247,7 @@ if __name__ == '__main__':
     #Sets the model learning rate
     optimizer = torch.optim.SGD(model.parameters(),lr=0.005)
 
-    run_model(model, training_data, testing_data)
+    if mode == "T":
+        run_model_test(model, training_data, testing_data)
+    elif mode == "D":
+        run_model_demo(model, training_data, image_path, image_transformer)

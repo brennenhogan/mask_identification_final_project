@@ -8,6 +8,9 @@ This project uses the mask labeled dataset from Kaggle. The dataset can be found
 Please download the dataset and move it to the directory above where you are running the program before use
 Call the data "mask_data" and it will be ignored by the .gitignore file for future use
 
+Milestone 1 and 2 zip files have been added to the final directory. These zip files include the data from the milestone testing runs and the code necessary to collect the data.
+No new data was collected for the final deliverable, as we focused on the stretch goal of the live demonstration and user interaction.
+
 # Data paths
 mask_data/dataset/masks/annotations
 mask_data/dataset/masks/images

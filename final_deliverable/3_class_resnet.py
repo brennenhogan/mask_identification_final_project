@@ -17,9 +17,6 @@ import ssl
 #Certificate for downloading the pretrained model
 ssl._create_default_https_context = ssl._create_unverified_context
 
-#Boolean which controls if the images are displayed or not
-SHOW_IMAGES = False
-
 #Colors cooresponding to the labels
 class_color   = {"face_no_mask":"r","face_with_mask":"g","face_with_mask_incorrect":"b"}
 label_to_ints = {"face_no_mask":0,"face_with_mask":1,"face_with_mask_incorrect":2}
@@ -57,12 +54,17 @@ class UserData(Dataset):
     
     def __getitem__(self, i):
         image_path      = os.path.join(self.file_path,self.image_path)
-        cropped_image   = Image.open(image_path)
+        cropped_image = "test.jpg"
+        try:
+            cropped_image   = Image.open(image_path)
+        except:
+            print("File does not exist")
     
         #Resizes the cropped image to 224 x 224
         if self.transform:
             image=self.transform(cropped_image)
             return(image)
+
 
 # creating the function to visualize images and draw a box around the face
 def visualize_guess(image_name, label):
@@ -200,9 +202,10 @@ def post_processing(output):
 
 if __name__ == '__main__':
     mode = input("Enter your mode (T for test, D for demo): ")
+    lr = float(input("Type in a learning rate (0.003 is the reccomended minimum value): "))
 
     #Read in training data
-    train = pd.read_csv('../abridged_data.csv')
+    train = pd.read_csv('../3_class.csv')
 
     print("dataset spread")
     print(train.classname.value_counts())
@@ -245,7 +248,7 @@ if __name__ == '__main__':
     criterion = nn.CrossEntropyLoss()
 
     #Sets the model learning rate
-    optimizer = torch.optim.SGD(model.parameters(),lr=0.005)
+    optimizer = torch.optim.SGD(model.parameters(),lr=lr)
 
     if mode == "T":
         run_model_test(model, training_data, testing_data)

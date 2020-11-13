@@ -14,7 +14,7 @@ from PIL import Image
 import numpy as np 
 
 #Boolean which controls if the images are displayed or not
-SHOW_IMAGES = False
+SHOW_IMAGES = True
 
 #Colors cooresponding to the labels
 class_color   = {"face_no_mask":"r","face_with_mask":"g"}
@@ -96,7 +96,7 @@ def visualize_training(image_name):
 # creating the function to visualize images and draw a box around the face
 def visualize_guess(image_name, labels):
     #Reads in the image and creates the plot
-    image=plt.imread(os.path.join('../mask_data/dataset/masks/images',image_name))
+    image=plt.imread(os.path.join('/Users/brennen/school/sr/first_semester/AI & Social Good/mask_identification_final_project/mask_data/dataset/masks/images/',image_name))
     temp=train[train.name==image_name]
     fig,ax=plt.subplots(1)
     ax.axis('off')
@@ -190,7 +190,7 @@ if __name__ == '__main__':
     print("-----")
 
     if SHOW_IMAGES:
-        visualize_training(random.choice(train.name.values))
+        visualize_training("0019.jpg")
         visualize_guess(random.choice(train.name.values), ['face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask', 'face_no_mask', 'face_with_mask'])
 
     #Training data makes up 75% of the dataset and testing data makes up the remaining 25%
